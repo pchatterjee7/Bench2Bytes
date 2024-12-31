@@ -222,6 +222,7 @@ footer p {
     font-size: 0.9em;
 }
 
+/* Blog Page Container */
 .blog-card {
     display: flex;
     gap: 20px;
@@ -230,6 +231,7 @@ footer p {
     margin-top: 20px;
 }
 
+/* Blog Card Styling */
 .card {
     border: 1px solid #ccc;
     border-radius: 8px;
@@ -240,12 +242,14 @@ footer p {
     background-color: #fff;
 }
 
+/* Blog Card Image Styling */
 .card img {
     max-width: 100%;
     height: auto;
-    border-radius: 8px 8px 0 0;
+    border-radius: 8px;
 }
 
+/* Blog Card Content */
 .card h3 {
     font-size: 1.2em;
     margin: 10px 0;
@@ -268,5 +272,32 @@ footer p {
 
 .card a:hover {
     background-color: #005A9E;
+}
+
+/* Heading colors */
+h1 {
+    color: #2A5298; /* A calming blue */
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #FF6F61; /* A warm coral */
+    font-size: 2em;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    color: #2A5298; /* Same blue as h1 for consistency */
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #333; /* A neutral dark gray for readability */
+    line-height: 1.6;
+    margin-bottom: 15px;
 }
 
