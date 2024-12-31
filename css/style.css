@@ -301,3 +301,39 @@ p {
     margin-bottom: 15px;
 }
 
+.blog-citations {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.blog-citations h2 {
+    margin-top: 0;
+    color: #0078D7;
+    font-size: 1.2em;
+}
+
+.blog-citations ol {
+    margin: 0;
+    padding-left: 20px;
+    list-style-position: inside;
+}
+
+.blog-citations li {
+    margin-bottom: 10px;
+    font-size: 0.95em;
+    color: #333;
+}
+
+.blog-citations li a {
+    color: #0078D7;
+    text-decoration: none;
+}
+
+.blog-citations li a:hover {
+    text-decoration: underline;
+}
+
