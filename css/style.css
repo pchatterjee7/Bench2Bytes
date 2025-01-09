@@ -251,3 +251,23 @@ p {
     text-align: center;
 }
 
+.citations {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.citations ul {
+    list-style: decimal inside;
+    margin: 0;
+    padding: 0;
+}
+
+.citations li {
+    margin-bottom: 10px;
+    font-size: 0.9em;
+    line-height: 1.5;
+    color: #333;
+}
+
