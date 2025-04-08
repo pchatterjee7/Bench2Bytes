@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decoding Single-Cell Clustering: Why More UMAP Clusters Don’t Mean More Cell Types</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="blog.html" class="active">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Decoding Single-Cell Clustering: Why More UMAP Clusters Don’t Mean More Cell Types</h1>
+        <p class="date-published"><strong>Date Published:</strong> March 18, 2025</p>
+
+        <p>Single-cell RNA sequencing (scRNA-seq) has revolutionized how we study cellular heterogeneity, enabling the discovery of rare cell populations and dynamic cell states. However, clustering results are often misinterpreted. This blog explains why more UMAP clusters do not necessarily indicate more biologically distinct cell types and how to avoid common pitfalls in scRNA-seq analysis.</p>
+
+        <section>
+            <h2>Understanding Clustering in scRNA-seq</h2>
+            <p>Clustering is based on gene expression similarities, often using Seurat (Satija et al., 2015) or Scanpy (Wolf et al., 2018). However, the number of clusters depends on:</p>
+            <ul>
+                <li>Resolution settings (higher resolution = more clusters)</li>
+                <li>Feature selection (which genes are used)</li>
+                <li>Batch effects and noise</li>
+            </ul>
+            <p>Thus, clustering methods identify cell states rather than definitive cell types.</p>
+        </section>
+
+        <section>
+            <h2>Cell Types vs. Cell States: What’s the Difference?</h2>
+            <p><strong>Cell Types:</strong> Stable populations with defined molecular signatures (e.g., neurons, T cells).</p>
+            <p><strong>Cell States:</strong> Temporary functional phases (e.g., activated T cells, differentiating stem cells).</p>
+            <p>Many UMAP clusters represent states rather than unique cell types.</p>
+        </section>
+
+        <section>
+            <h2>Why Clustering Can Overestimate Cell Types</h2>
+            <h3>1. UMAP Distorts High-Dimensional Space</h3>
+            <p>UMAP exaggerates cluster separation, making continuous gradients appear as discrete groups.</p>
+            <h3>2. Over-Resolution in Clustering Algorithms</h3>
+            <p>Higher resolution settings can split biologically similar cells into separate clusters.</p>
+            <h3>3. Pseudotemporal Continuums</h3>
+            <p>Processes like differentiation can be mistaken for distinct cell types instead of a continuum.</p>
+            <h3>4. Cell Cycle Effects</h3>
+            <p>Uncorrected cell cycle states can create artificial clusters.</p>
+
+            <h3>5. The Effect of Integration Methods on UMAP Clusters</h3>
+            <p>My recent work with the single cell data analysis revealed that the appearance of UMAP clusters is not only affected by biological heterogeneity but also by the choice of integration method used to correct for batch effects. When the same dataset was integrated using CCA, RPCA, Harmony, and merged without correction, the resulting UMAP plots showed dramatically different cluster structures. This highlights the critical need to:</p>
+            <ul>
+                <li>Validate clustering consistency across methods.</li>
+                <li>Choose integration strategies that preserve biological structure.</li>
+                <li>Avoid equating visual UMAP separation with true biological distinctness.</li>
+            </ul>
+            <div class="figure-container">
+                <img src="images/umap_methods.png" alt="UMAP Integration Methods" class="figure-image">
+                <div class="figure-caption">Figure: UMAP representations of scRNA-seq data integrated with various methods (CCA, RPCA, Harmony, etc.). Source: arXiv:2206.01816</div>
+            </div>
+        </section>
+
+        <section>
+            <h2>How to Avoid Over-Interpretation</h2>
+            <ul>
+                <li><strong>Perform Marker-Based Annotation:</strong> Validate clusters using known gene markers.</li>
+                <li><strong>Use Additional Modalities:</strong> scATAC-seq, spatial transcriptomics, and CITE-seq improve annotation accuracy.</li>
+                <li><strong>Consider Pseudotime Analysis:</strong> Methods like Monocle and Slingshot model differentiation as a gradient.</li>
+                <li><strong>Optimize Clustering Parameters:</strong> Test multiple resolution settings for biological relevance.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Conclusion</h2>
+            <p>Clustering and UMAP visualizations are valuable but should not be mistaken for true cell type classification. Careful validation using marker genes and multimodal data is essential for meaningful single-cell interpretations.</p>
+            <ul class="key-takeaways">
+                <li>✔️ More UMAP clusters ≠ More cell types</li>
+                <li>✔️ Cell states are dynamic, while cell types are stable</li>
+                <li>✔️ Clustering resolution and technical artifacts can inflate heterogeneity</li>
+                <li>✔️ Marker-based annotation and multimodal validation are crucial</li>
+            </ul>
+        </section>
+
+        <section class="citations">
+            <h2>References</h2>
+            <ul>
+                <li>Aran, D. et al. (2019). Reference-based analysis of lung single-cell sequencing reveals a transitional profibrotic macrophage. <i>Nature Immunology</i>, 20(2), 163-172.</li>
+                <li>Kiselev, V. Y. et al. (2019). Challenges in unsupervised clustering of single-cell RNA-seq data. <i>Nature Reviews Genetics</i>, 20(5), 273-282.</li>
+                <li>McInnes, L. et al. (2018). UMAP: Uniform Manifold Approximation and Projection for dimension reduction. <i>arXiv preprint arXiv:1802.03426</i>.</li>
+                <li>Satija, R. et al. (2015). Spatial reconstruction of single-cell gene expression data. <i>Nature Biotechnology</i>, 33(5), 495-502.</li>
+                <li>Lotfollahi, M. et al. (2022). Benchmarks of batch correction methods for single-cell RNA sequencing data integration. <i>arXiv preprint arXiv:2206.01816</i>.</li>
+            </ul>
+        </section>
+
+    </main>
+    <footer>
+        <p>&copy; 2025 Bench2Bytes. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

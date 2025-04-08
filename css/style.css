@@ -324,3 +324,67 @@ p {
     color: #333;
 }
 
+/* Blog Page Container */
+.blog-card {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Blog Card Styling */
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 300px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #fff;
+}
+
+/* Blog Card Image Styling */
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Blog Card Content */
+.card h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #2A5298;
+}
+
+.card p {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.card a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #0078D7;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.card a:hover {
+    background-color: #005A9E;
+}
+
+/* Specific Styling for Blog 3 */
+.card.blog-single-cell {
+    border: 2px solid #FF6F61;
+}
+
+.card.blog-single-cell h3 {
+    color: #FF6F61;
+}
+
