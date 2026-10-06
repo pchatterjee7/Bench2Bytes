@@ -4,7 +4,7 @@ The directory is curated, not exhaustive. The October 5 article is a historical 
 
 ## Metadata (JSON export schemaVersion 2)
 
-Each entry separates `issuingOrganization`, `jurisdiction`, `documentType`, `documentPublished`, `sourcePageUpdated` (nullable), `editorialVerified`, and `currentStatus`. `sourceOrganization` and `sourcePageType` identify the cited page separately from the underlying instrument. `documentPublishedNote` records date precision/context when needed. No machine fetch updates these fields. Missing source-page dates remain null; HTTP Last-Modified is not assumed to be an editorial update date.
+Each entry separates `issuingOrganization`, `jurisdiction`, `documentType`, `documentPublished`, `sourcePageUpdated` (nullable), `editorialVerified`, and `currentStatus`. `sourceOrganization` and `sourcePageType` identify the cited page separately from the underlying instrument. `documentPublishedNote` records date precision/context when needed. No machine fetch updates these fields. The optional `sourcePageReviewed` records a publisher-stated review date (HHS: 2022-12-23), without presenting it as an update. Missing source-page dates remain null; HTTP Last-Modified is not assumed to be an editorial update date.
 
 The EU record identifies the Parliament/Council as instrument issuers and the Commission as overview publisher. Original Regulation publication: 2024-07-12; overview's stated last update: 2026-08-03. Status is separate from the source's implementation-overview type. Original law text is linked, without implying it is the consolidated amended text.
 

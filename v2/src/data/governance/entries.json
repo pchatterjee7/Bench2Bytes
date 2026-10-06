@@ -34,7 +34,8 @@
         "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf"
       }
     ],
-    "sourceOrganization": "NIST"
+    "sourceOrganization": "NIST",
+    "sourcePageReviewed": null
   },
   {
     "id": "nih-genomics",
@@ -66,7 +67,8 @@
     "editorialVerified": "2026-10-05",
     "sourcePageType": "Official document page",
     "primaryDocuments": [],
-    "sourceOrganization": "NIH"
+    "sourceOrganization": "NIH",
+    "sourcePageReviewed": null
   },
   {
     "id": "nih-review",
@@ -97,7 +99,8 @@
     "editorialVerified": "2026-10-05",
     "sourcePageType": "Official document page",
     "primaryDocuments": [],
-    "sourceOrganization": "NIH"
+    "sourceOrganization": "NIH",
+    "sourcePageReviewed": null
   },
   {
     "id": "fda-drugs",
@@ -135,7 +138,8 @@
         "url": "https://www.fda.gov/media/184830/download"
       }
     ],
-    "sourceOrganization": "FDA"
+    "sourceOrganization": "FDA",
+    "sourcePageReviewed": null
   },
   {
     "id": "fda-device",
@@ -171,7 +175,8 @@
         "url": "https://www.fda.gov/media/184856/download"
       }
     ],
-    "sourceOrganization": "FDA"
+    "sourceOrganization": "FDA",
+    "sourcePageReviewed": null
   },
   {
     "id": "fda-records",
@@ -207,7 +212,8 @@
         "url": "https://www.fda.gov/media/166215/download"
       }
     ],
-    "sourceOrganization": "FDA"
+    "sourceOrganization": "FDA",
+    "sourcePageReviewed": null
   },
   {
     "id": "fda-ema",
@@ -238,14 +244,15 @@
     "documentPublished": "2026-01-14",
     "sourcePageUpdated": null,
     "editorialVerified": "2026-10-05",
-    "sourcePageType": "Official document page",
+    "sourcePageType": "Agency announcement",
     "primaryDocuments": [
       {
         "title": "Joint guiding principles",
         "url": "https://www.fda.gov/about-fda/artificial-intelligence-drug-development/guiding-principles-good-ai-practice-drug-development"
       }
     ],
-    "sourceOrganization": "FDA / EMA"
+    "sourceOrganization": "FDA",
+    "sourcePageReviewed": null
   },
   {
     "id": "eu-act",
@@ -284,7 +291,8 @@
       }
     ],
     "sourceOrganization": "European Commission",
-    "documentPublishedNote": "Original Regulation (EU) 2024/1689 publication in the Official Journal; not the overview update date."
+    "documentPublishedNote": "Original Regulation (EU) 2024/1689 publication in the Official Journal; not the overview update date.",
+    "sourcePageReviewed": null
   },
   {
     "id": "hhs-cloud",
@@ -318,6 +326,7 @@
     "editorialVerified": "2026-10-05",
     "sourcePageType": "Official document page",
     "primaryDocuments": [],
-    "sourceOrganization": "HHS"
+    "sourceOrganization": "HHS",
+    "sourcePageReviewed": "2022-12-23"
   }
 ]

@@ -21,7 +21,7 @@ Nine landing pages plus six registered primary documents are checked independent
 
 ## Metadata
 
-Separate fields: issuingOrganization, jurisdiction, documentType, documentPublished, sourcePageUpdated, editorialVerified, currentStatus. Additional sourceOrganization/sourcePageType distinguish page publisher/type from instrument issuer/type. primaryDocuments records authoritative attachments and HTML text. Unknown page-update dates remain null; HTTP timestamps are not repurposed as editorial dates.
+Separate fields: issuingOrganization, jurisdiction, documentType, documentPublished, sourcePageUpdated, editorialVerified, currentStatus. Additional sourceOrganization/sourcePageType distinguish page publisher/type from instrument issuer/type. primaryDocuments records authoritative attachments and HTML text. HHS states a publisher review date of 2022-12-23; it is stored separately as sourcePageReviewed, not inferred to be an update. The FDA–EMA bulletin publisher is FDA, separately from the joint issuers. Unknown page-update dates remain null; HTTP timestamps are not repurposed as editorial dates.
 
 EU record: legislation issued by the European Parliament/Council, with the Commission implementation overview as source; original Official Journal publication 2024-07-12; overview's stated last update 2026-08-03; current status 'In force; phased applicability'. Its original law PDF is not described as consolidated current law. FDA draft/final guidance and HHS explanatory guidance now distinguish nonbinding recommendations/explanations from underlying statutory/regulatory obligations.
 
