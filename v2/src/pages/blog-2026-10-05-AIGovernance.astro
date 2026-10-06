@@ -1,0 +1,11 @@
+---
+import Site from '../layouts/Site.astro';
+import { Content } from '../content/governance/article.md';
+import { url } from '../data/site';
+---
+<Site title="AI governance in biomedical research | Bench2Bytes" description="Evidence, oversight and responsibility in genetics, diagnostics, therapies and clinical trials.">
+ <div class="page-heading"><p class="eyebrow">RESEARCH NOTES · OCTOBER 5, 2026</p><h1>AI governance in biomedical research: evidence, oversight and responsibility</h1></div>
+ <aside class="companion"><p><strong>Companion resource</strong> · Browse the source documents by sector and status in the <a href={url('governance-observatory.html')}>AI Governance Observatory →</a></p></aside>
+ <article class="prose governance-article"><Content /></article>
+</Site>
+<style>.governance-article{max-width:78ch;margin-bottom:4rem}.companion{border-block:1px solid var(--line);padding:.6rem 0;margin-bottom:2rem}.governance-article :global(table){display:block;overflow-x:auto;width:100%;border-collapse:collapse}.governance-article :global(th),.governance-article :global(td){padding:.7rem;border-bottom:1px solid var(--line);text-align:left;min-width:150px;vertical-align:top}</style>

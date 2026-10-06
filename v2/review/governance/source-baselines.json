@@ -1,0 +1,38 @@
+{
+  "nist-rmf": {
+    "hash": "a9d438a2b532ce7b2c6875af9d5d30289770aff053fef05fb12b506e69c034af",
+    "checkedAt": "2026-10-06T02:47:24.983Z"
+  },
+  "nih-genomics": {
+    "hash": "fd1a069375b949041467cc45b16a07a647a9e1736a8aea07937d77c9bdd39f37",
+    "checkedAt": "2026-10-06T02:47:24.983Z"
+  },
+  "nih-review": {
+    "hash": "1304403dfec66b80ae47b1565f688e01d2b8b660716998c016965289c275422a",
+    "checkedAt": "2026-10-06T02:47:24.983Z"
+  },
+  "fda-drugs": {
+    "hash": "d63704dc22742f7c9f552c1b50b871bfb39b37492bcc5181c4bb532b95830f6e",
+    "checkedAt": "2026-10-06T02:47:24.983Z"
+  },
+  "fda-device": {
+    "hash": "86d05ba0ffa6f6685e4202f6700a08fc9abf452c1f263a699d1daa2382d114d5",
+    "checkedAt": "2026-10-06T02:47:24.983Z"
+  },
+  "fda-records": {
+    "hash": "1a329d89133921efe8061ab91de072e3df4253d17d17155c8434a09691a2a455",
+    "checkedAt": "2026-10-06T02:47:24.983Z"
+  },
+  "fda-ema": {
+    "hash": "ff246ce5f723589f8d619666121d35fa9a90734c21457111fb729ead23e518bc",
+    "checkedAt": "2026-10-06T02:47:24.983Z"
+  },
+  "eu-act": {
+    "hash": "b9d1c2d00b8ab71f08e0dbb9c5e2dca0de8d444827114cbd8af5d3ea71afd7ff",
+    "checkedAt": "2026-10-06T02:47:24.983Z"
+  },
+  "hhs-cloud": {
+    "hash": "38586c1f3ae4cfc5092c0929f38a09b0d6b31601e510076d6db4cc11a52810f4",
+    "checkedAt": "2026-10-06T02:47:24.983Z"
+  }
+}
