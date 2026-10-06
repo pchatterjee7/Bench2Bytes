@@ -2,210 +2,322 @@
   {
     "id": "nist-rmf",
     "title": "AI Risk Management Framework",
-    "organization": "NIST",
     "jurisdiction": "United States",
-    "status": "Voluntary framework",
     "sectors": [
       "University research",
       "Biomedical research"
     ],
-    "published": "2023-01-26",
     "summary": "Voluntary framework for managing AI risks through Govern, Map, Measure and Manage.",
     "implication": "Use to structure institutional responsibilities and evaluations; it does not authorize clinical use.",
     "source": "https://www.nist.gov/itl/ai-risk-management-framework",
-    "lastVerified": "2026-10-05",
     "verification": "Editorial source review",
     "history": [
       {
         "date": "2026-10-05",
         "note": "Added to the initial curated collection after source review."
+      },
+      {
+        "date": "2026-10-06",
+        "note": "Maintenance: separated document type, status and date fields; registered linked primary documents where applicable. Historical editorial review date retained."
       }
-    ]
+    ],
+    "issuingOrganization": "NIST",
+    "documentType": "Risk management framework",
+    "currentStatus": "Voluntary",
+    "documentPublished": "2023-01-26",
+    "sourcePageUpdated": null,
+    "editorialVerified": "2026-10-05",
+    "sourcePageType": "Official document page",
+    "primaryDocuments": [
+      {
+        "title": "AI RMF 1.0",
+        "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf"
+      }
+    ],
+    "sourceOrganization": "NIST"
   },
   {
     "id": "nih-genomics",
     "title": "Protecting human genomic data in generative AI",
-    "organization": "NIH",
     "jurisdiction": "United States",
-    "status": "Funder policy",
     "sectors": [
       "Genetics",
       "University research"
     ],
-    "published": "2025-03-28",
     "summary": "Notice addresses controlled-access genomic data, non-transferability and AI-derived models.",
     "implication": "Review data-access terms before using public AI tools or sharing trained model parameters.",
     "source": "https://www.grants.nih.gov/grants/guide/notice-files/NOT-OD-25-081.html",
-    "lastVerified": "2026-10-05",
     "verification": "Editorial source review",
     "history": [
       {
         "date": "2026-10-05",
         "note": "Added to the initial curated collection after source review."
+      },
+      {
+        "date": "2026-10-06",
+        "note": "Maintenance: separated document type, status and date fields; registered linked primary documents where applicable. Historical editorial review date retained."
       }
-    ]
+    ],
+    "issuingOrganization": "NIH",
+    "documentType": "Funder policy notice",
+    "currentStatus": "Published policy",
+    "documentPublished": "2025-03-28",
+    "sourcePageUpdated": null,
+    "editorialVerified": "2026-10-05",
+    "sourcePageType": "Official document page",
+    "primaryDocuments": [],
+    "sourceOrganization": "NIH"
   },
   {
     "id": "nih-review",
     "title": "Generative AI prohibition in NIH peer review",
-    "organization": "NIH",
     "jurisdiction": "United States",
-    "status": "Funder policy",
     "sectors": [
       "University research"
     ],
-    "published": "2023-06-23",
     "summary": "Prohibits generative AI for analyzing and formulating NIH peer-review critiques.",
     "implication": "An institutionally approved platform does not override this peer-review restriction.",
     "source": "https://grants.nih.gov/grants/guide/notice-files/NOT-OD-23-149.html",
-    "lastVerified": "2026-10-05",
     "verification": "Editorial source review",
     "history": [
       {
         "date": "2026-10-05",
         "note": "Added to the initial curated collection after source review."
+      },
+      {
+        "date": "2026-10-06",
+        "note": "Maintenance: separated document type, status and date fields; registered linked primary documents where applicable. Historical editorial review date retained."
       }
-    ]
+    ],
+    "issuingOrganization": "NIH",
+    "documentType": "Funder policy notice",
+    "currentStatus": "Published policy",
+    "documentPublished": "2023-06-23",
+    "sourcePageUpdated": null,
+    "editorialVerified": "2026-10-05",
+    "sourcePageType": "Official document page",
+    "primaryDocuments": [],
+    "sourceOrganization": "NIH"
   },
   {
     "id": "fda-drugs",
     "title": "AI supporting drug and biological-product regulatory decisions",
-    "organization": "FDA",
     "jurisdiction": "United States",
-    "status": "Draft guidance",
     "sectors": [
       "Therapies",
       "Clinical trials",
       "Biomedical research"
     ],
-    "published": "2025-01",
-    "summary": "Draft recommendations for evaluating model credibility in a defined context of use.",
+    "summary": "Draft recommendations for evaluating model credibility in a defined context of use. Contains nonbinding recommendations; not for implementation.",
     "implication": "Match credibility evidence to the proposed regulatory use; distinguish draft recommendations from requirements.",
     "source": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/considerations-use-artificial-intelligence-support-regulatory-decision-making-drug-and-biological",
-    "lastVerified": "2026-10-05",
     "verification": "Editorial source review",
     "history": [
       {
         "date": "2026-10-05",
         "note": "Added to the initial curated collection after source review."
+      },
+      {
+        "date": "2026-10-06",
+        "note": "Maintenance: separated document type, status and date fields; registered linked primary documents where applicable. Historical editorial review date retained."
       }
-    ]
+    ],
+    "issuingOrganization": "FDA",
+    "documentType": "Regulatory guidance",
+    "currentStatus": "Draft",
+    "documentPublished": "2025-01",
+    "sourcePageUpdated": null,
+    "editorialVerified": "2026-10-05",
+    "sourcePageType": "Official document page",
+    "primaryDocuments": [
+      {
+        "title": "Draft guidance",
+        "url": "https://www.fda.gov/media/184830/download"
+      }
+    ],
+    "sourceOrganization": "FDA"
   },
   {
     "id": "fda-device",
     "title": "AI-enabled device software lifecycle management",
-    "organization": "FDA",
     "jurisdiction": "United States",
-    "status": "Draft guidance",
     "sectors": [
       "Diagnostics"
     ],
-    "published": "2025-01",
-    "summary": "Draft recommendations addressing the lifecycle of AI-enabled medical-device software.",
+    "summary": "Draft recommendations addressing the lifecycle of AI-enabled medical-device software. Contains nonbinding recommendations; not for implementation.",
     "implication": "Assess intended use, evaluation and lifecycle controls for the specific device.",
     "source": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/artificial-intelligence-enabled-device-software-functions-lifecycle-management-and-marketing",
-    "lastVerified": "2026-10-05",
     "verification": "Editorial source review",
     "history": [
       {
         "date": "2026-10-05",
         "note": "Added to the initial curated collection after source review."
+      },
+      {
+        "date": "2026-10-06",
+        "note": "Maintenance: separated document type, status and date fields; registered linked primary documents where applicable. Historical editorial review date retained."
       }
-    ]
+    ],
+    "issuingOrganization": "FDA",
+    "documentType": "Regulatory guidance",
+    "currentStatus": "Draft",
+    "documentPublished": "2025-01",
+    "sourcePageUpdated": null,
+    "editorialVerified": "2026-10-05",
+    "sourcePageType": "Official document page",
+    "primaryDocuments": [
+      {
+        "title": "Draft guidance",
+        "url": "https://www.fda.gov/media/184856/download"
+      }
+    ],
+    "sourceOrganization": "FDA"
   },
   {
     "id": "fda-records",
     "title": "Electronic systems and records in clinical investigations",
-    "organization": "FDA",
     "jurisdiction": "United States",
-    "status": "Final guidance",
     "sectors": [
       "Clinical trials"
     ],
-    "published": "2024-10",
-    "summary": "Guidance on electronic systems, records and signatures in clinical investigations.",
+    "summary": "Guidance on electronic systems, records and signatures in clinical investigations. Recommendations are nonbinding; cited statutory or regulatory requirements may apply.",
     "implication": "Assess record reliability and applicable requirements when AI contributes to trial records.",
     "source": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/electronic-systems-electronic-records-and-electronic-signatures-clinical-investigations-questions",
-    "lastVerified": "2026-10-05",
     "verification": "Editorial source review",
     "history": [
       {
         "date": "2026-10-05",
         "note": "Added to the initial curated collection after source review."
+      },
+      {
+        "date": "2026-10-06",
+        "note": "Maintenance: separated document type, status and date fields; registered linked primary documents where applicable. Historical editorial review date retained."
       }
-    ]
+    ],
+    "issuingOrganization": "FDA",
+    "documentType": "Regulatory guidance",
+    "currentStatus": "Final",
+    "documentPublished": "2024-10",
+    "sourcePageUpdated": null,
+    "editorialVerified": "2026-10-05",
+    "sourcePageType": "Official document page",
+    "primaryDocuments": [
+      {
+        "title": "Final guidance",
+        "url": "https://www.fda.gov/media/166215/download"
+      }
+    ],
+    "sourceOrganization": "FDA"
   },
   {
     "id": "fda-ema",
     "title": "Good AI practice in drug development",
-    "organization": "FDA / EMA",
     "jurisdiction": "United States / European Union",
-    "status": "Guiding principles",
     "sectors": [
       "Therapies",
       "Clinical trials",
       "Biomedical research"
     ],
-    "published": "2026-01-14",
     "summary": "Ten shared principles addressing AI-generated evidence across the drug product lifecycle.",
     "implication": "Principles inform responsible development; they do not constitute product authorization.",
     "source": "https://content.govdelivery.com/accounts/USFDA/bulletins/4042e31",
-    "lastVerified": "2026-10-05",
     "verification": "Editorial source review",
     "history": [
       {
         "date": "2026-10-05",
         "note": "Added to the initial curated collection after source review."
+      },
+      {
+        "date": "2026-10-06",
+        "note": "Maintenance: separated document type, status and date fields; registered linked primary documents where applicable. Historical editorial review date retained."
       }
-    ]
+    ],
+    "issuingOrganization": "FDA / EMA",
+    "documentType": "Guiding principles",
+    "currentStatus": "Published principles",
+    "documentPublished": "2026-01-14",
+    "sourcePageUpdated": null,
+    "editorialVerified": "2026-10-05",
+    "sourcePageType": "Official document page",
+    "primaryDocuments": [
+      {
+        "title": "Joint guiding principles",
+        "url": "https://www.fda.gov/about-fda/artificial-intelligence-drug-development/guiding-principles-good-ai-practice-drug-development"
+      }
+    ],
+    "sourceOrganization": "FDA / EMA"
   },
   {
     "id": "eu-act",
     "title": "EU AI Act: implementation and applicability",
-    "organization": "European Commission",
     "jurisdiction": "European Union",
-    "status": "Law / implementation overview",
     "sectors": [
       "University research",
       "Diagnostics",
       "Therapies"
     ],
-    "published": "2024",
     "summary": "Commission overview of the risk-based legal framework and its implementation timetable.",
     "implication": "Determine the applicable legal category and current transition dates for each use.",
     "source": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
-    "lastVerified": "2026-10-05",
     "verification": "Editorial source review",
     "history": [
       {
         "date": "2026-10-05",
         "note": "Added to the initial curated collection after source review."
+      },
+      {
+        "date": "2026-10-06",
+        "note": "Maintenance: separated document type, status and date fields; registered linked primary documents where applicable. Historical editorial review date retained."
       }
-    ]
+    ],
+    "issuingOrganization": "European Parliament / Council of the European Union",
+    "documentType": "Legislation",
+    "currentStatus": "In force; phased applicability",
+    "documentPublished": "2024-07-12",
+    "sourcePageUpdated": "2026-08-03",
+    "editorialVerified": "2026-10-05",
+    "sourcePageType": "Implementation overview",
+    "primaryDocuments": [
+      {
+        "title": "AI Act original Official Journal text",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A32024R1689"
+      }
+    ],
+    "sourceOrganization": "European Commission",
+    "documentPublishedNote": "Original Regulation (EU) 2024/1689 publication in the Official Journal; not the overview update date."
   },
   {
     "id": "hhs-cloud",
     "title": "HIPAA and cloud computing",
-    "organization": "HHS",
     "jurisdiction": "United States",
-    "status": "Regulatory guidance",
     "sectors": [
       "Genetics",
       "Diagnostics",
       "Clinical trials",
       "University research"
     ],
-    "published": "2016",
-    "summary": "Explains HIPAA obligations for covered cloud processing, including agreements and risk analysis.",
+    "summary": "Explains HIPAA obligations for covered cloud processing, including agreements and risk analysis. The explanatory guidance is distinct from the underlying HIPAA requirements.",
     "implication": "Platform security and a BAA do not independently establish scientific validity or permitted research use.",
     "source": "https://www.hhs.gov/hipaa/for-professionals/special-topics/health-information-technology/cloud-computing/index.html",
-    "lastVerified": "2026-10-05",
     "verification": "Editorial source review",
     "history": [
       {
         "date": "2026-10-05",
         "note": "Added to the initial curated collection after source review."
+      },
+      {
+        "date": "2026-10-06",
+        "note": "Maintenance: separated document type, status and date fields; registered linked primary documents where applicable. Historical editorial review date retained."
       }
-    ]
+    ],
+    "issuingOrganization": "HHS",
+    "documentType": "Regulatory guidance",
+    "currentStatus": "Published guidance",
+    "documentPublished": "2016",
+    "sourcePageUpdated": null,
+    "editorialVerified": "2026-10-05",
+    "sourcePageType": "Official document page",
+    "primaryDocuments": [],
+    "sourceOrganization": "HHS"
   }
 ]

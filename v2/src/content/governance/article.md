@@ -90,4 +90,4 @@ Scientific progress should be evaluated through the quality of evidence and its 
 
 ---
 
-*Policy status reviewed October 5, 2026. Company descriptions reflect published accounts. Proposed controls and the 2027–28 outlook are the author's analysis. *
+*Policy status reviewed October 5, 2026. Company descriptions reflect published accounts. Proposed controls and the 2027–28 outlook are the author's analysis.*

@@ -1,87 +1,363 @@
 {
-  "checkedAt": "2026-10-06T02:47:24.983Z",
-  "note": "Availability and text comparison only; no editorial records changed.",
+  "schemaVersion": 2,
+  "checkedAt": "2026-10-06T12:01:27.193Z",
+  "note": "Technical signals only. Substantive policy/status changes require editorial determination; no public metadata, summaries or verification dates were updated.",
   "results": [
     {
-      "id": "nist-rmf",
-      "source": "https://www.nist.gov/itl/ai-risk-management-framework",
+      "key": "nist-rmf",
+      "entryId": "nist-rmf",
+      "kind": "landing-page",
+      "url": "https://www.nist.gov/itl/ai-risk-management-framework",
       "resolvedUrl": "https://www.nist.gov/itl/ai-risk-management-framework",
-      "checkedAt": "2026-10-06T02:47:24.983Z",
-      "outcome": "baseline",
+      "outcome": "unchanged",
       "hash": "a9d438a2b532ce7b2c6875af9d5d30289770aff053fef05fb12b506e69c034af",
-      "previousHash": null
+      "previousHash": "a9d438a2b532ce7b2c6875af9d5d30289770aff053fef05fb12b506e69c034af",
+      "fingerprint": "Normalized HTML text SHA-256",
+      "contentType": "text/html; charset=UTF-8",
+      "links": [
+        {
+          "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+          "title": "Download the AI RMF 1.0"
+        },
+        {
+          "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.ara.pdf",
+          "title": "NIST AI Risk Management Framework"
+        },
+        {
+          "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.jpn.pdf",
+          "title": "NIST AI Risk Management Framework"
+        }
+      ],
+      "checkedAt": "2026-10-06T12:01:27.193Z"
     },
     {
-      "id": "nih-genomics",
-      "source": "https://www.grants.nih.gov/grants/guide/notice-files/NOT-OD-25-081.html",
+      "key": "nist-rmf:document:https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "entryId": "nist-rmf",
+      "kind": "primary-document",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "resolvedUrl": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "outcome": "baseline",
+      "hash": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "previousHash": null,
+      "fingerprint": "PDF byte SHA-256",
+      "contentType": "application/pdf",
+      "links": [],
+      "checkedAt": "2026-10-06T12:01:27.193Z"
+    },
+    {
+      "key": "nih-genomics",
+      "entryId": "nih-genomics",
+      "kind": "landing-page",
+      "url": "https://www.grants.nih.gov/grants/guide/notice-files/NOT-OD-25-081.html",
       "resolvedUrl": "https://www.grants.nih.gov/grants/guide/notice-files/NOT-OD-25-081.html",
-      "checkedAt": "2026-10-06T02:47:24.983Z",
-      "outcome": "baseline",
+      "outcome": "unchanged",
       "hash": "fd1a069375b949041467cc45b16a07a647a9e1736a8aea07937d77c9bdd39f37",
-      "previousHash": null
+      "previousHash": "fd1a069375b949041467cc45b16a07a647a9e1736a8aea07937d77c9bdd39f37",
+      "fingerprint": "Normalized HTML text SHA-256",
+      "contentType": "text/html;charset=UTF-8",
+      "links": [
+        {
+          "url": "https://sharing.nih.gov/sites/default/files/flmngr/Universal_DUC.pdf",
+          "title": "Data Use Certification (DUC) Agreement"
+        },
+        {
+          "url": "https://sharing.nih.gov/sites/default/files/flmngr/Genomic_Data_User_Code_of_Conduct.pdf",
+          "title": "Genomic Data User Code of Conduct"
+        }
+      ],
+      "checkedAt": "2026-10-06T12:01:27.193Z"
     },
     {
-      "id": "nih-review",
-      "source": "https://grants.nih.gov/grants/guide/notice-files/NOT-OD-23-149.html",
+      "key": "nih-review",
+      "entryId": "nih-review",
+      "kind": "landing-page",
+      "url": "https://grants.nih.gov/grants/guide/notice-files/NOT-OD-23-149.html",
       "resolvedUrl": "https://grants.nih.gov/grants/guide/notice-files/NOT-OD-23-149.html",
-      "checkedAt": "2026-10-06T02:47:24.983Z",
-      "outcome": "baseline",
+      "outcome": "unchanged",
       "hash": "1304403dfec66b80ae47b1565f688e01d2b8b660716998c016965289c275422a",
-      "previousHash": null
+      "previousHash": "1304403dfec66b80ae47b1565f688e01d2b8b660716998c016965289c275422a",
+      "fingerprint": "Normalized HTML text SHA-256",
+      "contentType": "text/html;charset=UTF-8",
+      "links": [],
+      "checkedAt": "2026-10-06T12:01:27.193Z"
     },
     {
-      "id": "fda-drugs",
-      "source": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/considerations-use-artificial-intelligence-support-regulatory-decision-making-drug-and-biological",
+      "key": "fda-drugs",
+      "entryId": "fda-drugs",
+      "kind": "landing-page",
+      "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/considerations-use-artificial-intelligence-support-regulatory-decision-making-drug-and-biological",
       "resolvedUrl": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/considerations-use-artificial-intelligence-support-regulatory-decision-making-drug-and-biological",
-      "checkedAt": "2026-10-06T02:47:24.983Z",
-      "outcome": "baseline",
+      "outcome": "unchanged",
       "hash": "d63704dc22742f7c9f552c1b50b871bfb39b37492bcc5181c4bb532b95830f6e",
-      "previousHash": null
+      "previousHash": "d63704dc22742f7c9f552c1b50b871bfb39b37492bcc5181c4bb532b95830f6e",
+      "fingerprint": "Normalized HTML text SHA-256",
+      "contentType": "text/html; charset=UTF-8",
+      "links": [
+        {
+          "url": "https://www.fda.gov/media/184830/download",
+          "title": "Download the Draft Guidance Document"
+        }
+      ],
+      "checkedAt": "2026-10-06T12:01:27.193Z"
     },
     {
-      "id": "fda-device",
-      "source": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/artificial-intelligence-enabled-device-software-functions-lifecycle-management-and-marketing",
+      "key": "fda-drugs:document:https://www.fda.gov/media/184830/download",
+      "entryId": "fda-drugs",
+      "kind": "primary-document",
+      "url": "https://www.fda.gov/media/184830/download",
+      "resolvedUrl": "https://www.fda.gov/media/184830/download",
+      "outcome": "baseline",
+      "hash": "62352ed0fc17c07a670ed1381a8cdb1173f1c8988fb6e066da270e7cc72d4aaa",
+      "previousHash": null,
+      "fingerprint": "PDF byte SHA-256",
+      "contentType": "application/pdf",
+      "links": [],
+      "checkedAt": "2026-10-06T12:01:27.193Z"
+    },
+    {
+      "key": "fda-device",
+      "entryId": "fda-device",
+      "kind": "landing-page",
+      "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/artificial-intelligence-enabled-device-software-functions-lifecycle-management-and-marketing",
       "resolvedUrl": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/artificial-intelligence-enabled-device-software-functions-lifecycle-management-and-marketing",
-      "checkedAt": "2026-10-06T02:47:24.983Z",
-      "outcome": "baseline",
+      "outcome": "unchanged",
       "hash": "86d05ba0ffa6f6685e4202f6700a08fc9abf452c1f263a699d1daa2382d114d5",
-      "previousHash": null
+      "previousHash": "86d05ba0ffa6f6685e4202f6700a08fc9abf452c1f263a699d1daa2382d114d5",
+      "fingerprint": "Normalized HTML text SHA-256",
+      "contentType": "text/html; charset=UTF-8",
+      "links": [
+        {
+          "url": "https://www.fda.gov/media/184856/download",
+          "title": "Download the Draft Guidance Document"
+        }
+      ],
+      "checkedAt": "2026-10-06T12:01:27.193Z"
     },
     {
-      "id": "fda-records",
-      "source": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/electronic-systems-electronic-records-and-electronic-signatures-clinical-investigations-questions",
+      "key": "fda-device:document:https://www.fda.gov/media/184856/download",
+      "entryId": "fda-device",
+      "kind": "primary-document",
+      "url": "https://www.fda.gov/media/184856/download",
+      "resolvedUrl": "https://www.fda.gov/media/184856/download",
+      "outcome": "baseline",
+      "hash": "62e83e0f4cbd36aed96f2f98ced597f3146f25ae66abba9849325e4e4b7520bc",
+      "previousHash": null,
+      "fingerprint": "PDF byte SHA-256",
+      "contentType": "application/pdf",
+      "links": [],
+      "checkedAt": "2026-10-06T12:01:27.193Z"
+    },
+    {
+      "key": "fda-records",
+      "entryId": "fda-records",
+      "kind": "landing-page",
+      "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/electronic-systems-electronic-records-and-electronic-signatures-clinical-investigations-questions",
       "resolvedUrl": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/electronic-systems-electronic-records-and-electronic-signatures-clinical-investigations-questions",
-      "checkedAt": "2026-10-06T02:47:24.983Z",
-      "outcome": "baseline",
+      "outcome": "unchanged",
       "hash": "1a329d89133921efe8061ab91de072e3df4253d17d17155c8434a09691a2a455",
-      "previousHash": null
+      "previousHash": "1a329d89133921efe8061ab91de072e3df4253d17d17155c8434a09691a2a455",
+      "fingerprint": "Normalized HTML text SHA-256",
+      "contentType": "text/html; charset=UTF-8",
+      "links": [
+        {
+          "url": "https://www.fda.gov/media/166215/download",
+          "title": "Download the Final Guidance Document"
+        }
+      ],
+      "checkedAt": "2026-10-06T12:01:27.193Z"
     },
     {
-      "id": "fda-ema",
-      "source": "https://content.govdelivery.com/accounts/USFDA/bulletins/4042e31",
+      "key": "fda-records:document:https://www.fda.gov/media/166215/download",
+      "entryId": "fda-records",
+      "kind": "primary-document",
+      "url": "https://www.fda.gov/media/166215/download",
+      "resolvedUrl": "https://www.fda.gov/media/166215/download",
+      "outcome": "baseline",
+      "hash": "f74ce1b061edfa634aaf0a0b07a472995a6d215f310a562e17ae46c0b67b47a6",
+      "previousHash": null,
+      "fingerprint": "PDF byte SHA-256",
+      "contentType": "application/pdf",
+      "links": [],
+      "checkedAt": "2026-10-06T12:01:27.193Z"
+    },
+    {
+      "key": "fda-ema",
+      "entryId": "fda-ema",
+      "kind": "landing-page",
+      "url": "https://content.govdelivery.com/accounts/USFDA/bulletins/4042e31",
       "resolvedUrl": "https://content.govdelivery.com/accounts/USFDA/bulletins/4042e31",
-      "checkedAt": "2026-10-06T02:47:24.983Z",
-      "outcome": "baseline",
+      "outcome": "unchanged",
       "hash": "ff246ce5f723589f8d619666121d35fa9a90734c21457111fb729ead23e518bc",
-      "previousHash": null
+      "previousHash": "ff246ce5f723589f8d619666121d35fa9a90734c21457111fb729ead23e518bc",
+      "fingerprint": "Normalized HTML text SHA-256",
+      "contentType": "text/html; charset=utf-8",
+      "links": [],
+      "checkedAt": "2026-10-06T12:01:27.193Z"
     },
     {
-      "id": "eu-act",
-      "source": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+      "key": "fda-ema:document:https://www.fda.gov/about-fda/artificial-intelligence-drug-development/guiding-principles-good-ai-practice-drug-development",
+      "entryId": "fda-ema",
+      "kind": "primary-document",
+      "url": "https://www.fda.gov/about-fda/artificial-intelligence-drug-development/guiding-principles-good-ai-practice-drug-development",
+      "resolvedUrl": "https://www.fda.gov/about-fda/artificial-intelligence-drug-development/guiding-principles-good-ai-practice-drug-development",
+      "outcome": "baseline",
+      "hash": "7d83bb22eab4f9de45158b65a0937610a52187796766a487b42a767b4ebf9e7b",
+      "previousHash": null,
+      "fingerprint": "Normalized HTML text SHA-256",
+      "contentType": "text/html; charset=UTF-8",
+      "links": [],
+      "checkedAt": "2026-10-06T12:01:27.193Z"
+    },
+    {
+      "key": "eu-act",
+      "entryId": "eu-act",
+      "kind": "landing-page",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
       "resolvedUrl": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
-      "checkedAt": "2026-10-06T02:47:24.983Z",
-      "outcome": "baseline",
-      "hash": "b9d1c2d00b8ab71f08e0dbb9c5e2dca0de8d444827114cbd8af5d3ea71afd7ff",
-      "previousHash": null
+      "outcome": "review-required",
+      "hash": "24f38d0cce6d74029b1a91b72a81e76c761021b074bd23055fed92be4a9c5ec7",
+      "previousHash": "b9d1c2d00b8ab71f08e0dbb9c5e2dca0de8d444827114cbd8af5d3ea71afd7ff",
+      "fingerprint": "Normalized HTML text SHA-256",
+      "contentType": "text/html; charset=UTF-8",
+      "links": [
+        {
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R1689",
+          "title": "AI Act"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202601744",
+          "title": "AI Omnibus Regulation"
+        },
+        {
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202401689",
+          "title": "Text of the AI Act in all EU official languages"
+        }
+      ],
+      "checkedAt": "2026-10-06T12:01:27.193Z"
     },
     {
-      "id": "hhs-cloud",
-      "source": "https://www.hhs.gov/hipaa/for-professionals/special-topics/health-information-technology/cloud-computing/index.html",
+      "key": "eu-act:document:https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A32024R1689",
+      "entryId": "eu-act",
+      "kind": "primary-document",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A32024R1689",
+      "outcome": "unavailable",
+      "error": "Insufficient source content",
+      "checkedAt": "2026-10-06T12:01:27.193Z"
+    },
+    {
+      "key": "hhs-cloud",
+      "entryId": "hhs-cloud",
+      "kind": "landing-page",
+      "url": "https://www.hhs.gov/hipaa/for-professionals/special-topics/health-information-technology/cloud-computing/index.html",
       "resolvedUrl": "https://www.hhs.gov/hipaa/for-professionals/special-topics/health-information-technology/cloud-computing/index.html",
-      "checkedAt": "2026-10-06T02:47:24.983Z",
-      "outcome": "baseline",
+      "outcome": "unchanged",
       "hash": "38586c1f3ae4cfc5092c0929f38a09b0d6b31601e510076d6db4cc11a52810f4",
-      "previousHash": null
+      "previousHash": "38586c1f3ae4cfc5092c0929f38a09b0d6b31601e510076d6db4cc11a52810f4",
+      "fingerprint": "Normalized HTML text SHA-256",
+      "contentType": "text/html; charset=UTF-8",
+      "links": [
+        {
+          "url": "https://www.hhs.gov/sites/default/files/ocr-letter-hipaa-privacy-rule-and-parental-access-to-minor-childrens-medical-records.pdf",
+          "title": "Parental Access"
+        },
+        {
+          "url": "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-145.pdf",
+          "title": "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-1…"
+        },
+        {
+          "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r4.pdf",
+          "title": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r4.pdf"
+        }
+      ],
+      "checkedAt": "2026-10-06T12:01:27.193Z"
+    }
+  ],
+  "signals": [
+    {
+      "type": "newly-discovered-document",
+      "entryId": "nist-rmf",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.ara.pdf",
+      "title": "NIST AI Risk Management Framework",
+      "requiresEditorialReview": true,
+      "note": "Previously unregistered link; may be historical or unrelated. Not a finding that a new policy was published."
+    },
+    {
+      "type": "newly-discovered-document",
+      "entryId": "nist-rmf",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.jpn.pdf",
+      "title": "NIST AI Risk Management Framework",
+      "requiresEditorialReview": true,
+      "note": "Previously unregistered link; may be historical or unrelated. Not a finding that a new policy was published."
+    },
+    {
+      "type": "newly-discovered-document",
+      "entryId": "nih-genomics",
+      "url": "https://sharing.nih.gov/sites/default/files/flmngr/Universal_DUC.pdf",
+      "title": "Data Use Certification (DUC) Agreement",
+      "requiresEditorialReview": true,
+      "note": "Previously unregistered link; may be historical or unrelated. Not a finding that a new policy was published."
+    },
+    {
+      "type": "newly-discovered-document",
+      "entryId": "nih-genomics",
+      "url": "https://sharing.nih.gov/sites/default/files/flmngr/Genomic_Data_User_Code_of_Conduct.pdf",
+      "title": "Genomic Data User Code of Conduct",
+      "requiresEditorialReview": true,
+      "note": "Previously unregistered link; may be historical or unrelated. Not a finding that a new policy was published."
+    },
+    {
+      "type": "landing-page-change",
+      "entryId": "eu-act",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+      "requiresEditorialReview": true
+    },
+    {
+      "type": "newly-discovered-document",
+      "entryId": "eu-act",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R1689",
+      "title": "AI Act",
+      "requiresEditorialReview": true,
+      "note": "Previously unregistered link; may be historical or unrelated. Not a finding that a new policy was published."
+    },
+    {
+      "type": "newly-discovered-document",
+      "entryId": "eu-act",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202601744",
+      "title": "AI Omnibus Regulation",
+      "requiresEditorialReview": true,
+      "note": "Previously unregistered link; may be historical or unrelated. Not a finding that a new policy was published."
+    },
+    {
+      "type": "newly-discovered-document",
+      "entryId": "eu-act",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202401689",
+      "title": "Text of the AI Act in all EU official languages",
+      "requiresEditorialReview": true,
+      "note": "Previously unregistered link; may be historical or unrelated. Not a finding that a new policy was published."
+    },
+    {
+      "type": "newly-discovered-document",
+      "entryId": "hhs-cloud",
+      "url": "https://www.hhs.gov/sites/default/files/ocr-letter-hipaa-privacy-rule-and-parental-access-to-minor-childrens-medical-records.pdf",
+      "title": "Parental Access",
+      "requiresEditorialReview": true,
+      "note": "Previously unregistered link; may be historical or unrelated. Not a finding that a new policy was published."
+    },
+    {
+      "type": "newly-discovered-document",
+      "entryId": "hhs-cloud",
+      "url": "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-145.pdf",
+      "title": "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-1…",
+      "requiresEditorialReview": true,
+      "note": "Previously unregistered link; may be historical or unrelated. Not a finding that a new policy was published."
+    },
+    {
+      "type": "newly-discovered-document",
+      "entryId": "hhs-cloud",
+      "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r4.pdf",
+      "title": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r4.pdf",
+      "requiresEditorialReview": true,
+      "note": "Previously unregistered link; may be historical or unrelated. Not a finding that a new policy was published."
     }
   ]
 }

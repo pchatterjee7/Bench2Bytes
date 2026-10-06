@@ -1,31 +1,31 @@
 {
   "nist-rmf": {
     "hash": "a9d438a2b532ce7b2c6875af9d5d30289770aff053fef05fb12b506e69c034af",
-    "checkedAt": "2026-10-06T02:47:24.983Z"
+    "checkedAt": "2026-10-06T12:01:27.193Z"
   },
   "nih-genomics": {
     "hash": "fd1a069375b949041467cc45b16a07a647a9e1736a8aea07937d77c9bdd39f37",
-    "checkedAt": "2026-10-06T02:47:24.983Z"
+    "checkedAt": "2026-10-06T12:01:27.193Z"
   },
   "nih-review": {
     "hash": "1304403dfec66b80ae47b1565f688e01d2b8b660716998c016965289c275422a",
-    "checkedAt": "2026-10-06T02:47:24.983Z"
+    "checkedAt": "2026-10-06T12:01:27.193Z"
   },
   "fda-drugs": {
     "hash": "d63704dc22742f7c9f552c1b50b871bfb39b37492bcc5181c4bb532b95830f6e",
-    "checkedAt": "2026-10-06T02:47:24.983Z"
+    "checkedAt": "2026-10-06T12:01:27.193Z"
   },
   "fda-device": {
     "hash": "86d05ba0ffa6f6685e4202f6700a08fc9abf452c1f263a699d1daa2382d114d5",
-    "checkedAt": "2026-10-06T02:47:24.983Z"
+    "checkedAt": "2026-10-06T12:01:27.193Z"
   },
   "fda-records": {
     "hash": "1a329d89133921efe8061ab91de072e3df4253d17d17155c8434a09691a2a455",
-    "checkedAt": "2026-10-06T02:47:24.983Z"
+    "checkedAt": "2026-10-06T12:01:27.193Z"
   },
   "fda-ema": {
     "hash": "ff246ce5f723589f8d619666121d35fa9a90734c21457111fb729ead23e518bc",
-    "checkedAt": "2026-10-06T02:47:24.983Z"
+    "checkedAt": "2026-10-06T12:01:27.193Z"
   },
   "eu-act": {
     "hash": "b9d1c2d00b8ab71f08e0dbb9c5e2dca0de8d444827114cbd8af5d3ea71afd7ff",
@@ -33,6 +33,26 @@
   },
   "hhs-cloud": {
     "hash": "38586c1f3ae4cfc5092c0929f38a09b0d6b31601e510076d6db4cc11a52810f4",
-    "checkedAt": "2026-10-06T02:47:24.983Z"
+    "checkedAt": "2026-10-06T12:01:27.193Z"
+  },
+  "nist-rmf:document:https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf": {
+    "hash": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+    "checkedAt": "2026-10-06T12:01:27.193Z"
+  },
+  "fda-drugs:document:https://www.fda.gov/media/184830/download": {
+    "hash": "62352ed0fc17c07a670ed1381a8cdb1173f1c8988fb6e066da270e7cc72d4aaa",
+    "checkedAt": "2026-10-06T12:01:27.193Z"
+  },
+  "fda-device:document:https://www.fda.gov/media/184856/download": {
+    "hash": "62e83e0f4cbd36aed96f2f98ced597f3146f25ae66abba9849325e4e4b7520bc",
+    "checkedAt": "2026-10-06T12:01:27.193Z"
+  },
+  "fda-records:document:https://www.fda.gov/media/166215/download": {
+    "hash": "f74ce1b061edfa634aaf0a0b07a472995a6d215f310a562e17ae46c0b67b47a6",
+    "checkedAt": "2026-10-06T12:01:27.193Z"
+  },
+  "fda-ema:document:https://www.fda.gov/about-fda/artificial-intelligence-drug-development/guiding-principles-good-ai-practice-drug-development": {
+    "hash": "7d83bb22eab4f9de45158b65a0937610a52187796766a487b42a767b4ebf9e7b",
+    "checkedAt": "2026-10-06T12:01:27.193Z"
   }
 }
