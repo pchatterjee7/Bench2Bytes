@@ -1,0 +1,12 @@
+---
+interface Stage { title: string; description: string; }
+interface Props { title: string; stages: Stage[]; stewardship?: boolean; id: string; }
+const { title, stages, stewardship = false, id } = Astro.props;
+---
+<figure class="research-workflow" aria-labelledby={`${id}-title`}>
+ <figcaption id={`${id}-title`} class="workflow-caption"><span class="eyebrow">PROFESSIONAL OPERATING MODEL</span><strong>{title}</strong><span>A way of connecting disciplines, methods and decisions.</span></figcaption>
+ <ol class="workflow-stages" style={`--stage-count:${stages.length}`}>
+  {stages.map((stage, i) => <li><details><summary><span class="workflow-index" aria-hidden="true">{String(i+1).padStart(2,'0')}</span><span>{stage.title}</span><span class="workflow-detail-hint">Explore stage <span aria-hidden="true">+</span></span></summary><p>{stage.description}</p></details></li>)}
+ </ol>
+ {stewardship && <div class="stewardship"><span class="stewardship-label">Across Data → AI → Evidence → Decisions</span><p>Stewardship &amp; responsible use</p><span>Provenance · Validation · Privacy · Quality · Accountability</span></div>}
+</figure>

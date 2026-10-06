@@ -1,0 +1,266 @@
+[
+  {
+    "id": "oncology-rwe",
+    "title": "Population-scale breast cancer evidence",
+    "domain": "RWE · ONCOLOGY",
+    "summary": "Retrospective evidence generation across a 942,124-patient breast cancer study population.",
+    "fields": [
+      [
+        "Context",
+        "ConcertAI RWD360 combines EHR, claims and curated data for retrospective oncology research."
+      ],
+      [
+        "The challenge",
+        "Define clinically meaningful recurrence and treatment patterns in heterogeneous longitudinal records."
+      ],
+      [
+        "Paramita’s role",
+        "Corresponding author of the study manuscript, currently in preparation; development of analytical approaches and data-quality audits."
+      ],
+      [
+        "Approach",
+        "Composite recurrence endpoints, treatment and line-of-therapy classification, Cox proportional hazards models, Kaplan–Meier analysis and Fine–Gray competing risks analysis."
+      ],
+      [
+        "Evidence / scale",
+        "942,124 patients in the study population. This is the study’s population scale, rather than a claim of prospective recruitment."
+      ],
+      [
+        "Contribution",
+        "An integrated analytical framework connecting endpoint construction, survival analysis and assessment of misclassification. Manuscript in preparation."
+      ],
+      [
+        "Responsible research",
+        "Fit-for-purpose assessment, endpoint validity and data-quality review are integral to interpretation. Individual patient records and unpublished results are not shared here."
+      ]
+    ],
+    "links": [
+      [
+        "AI & data stewardship",
+        "ai-governance.html"
+      ]
+    ]
+  },
+  {
+    "id": "multimodal-oncology",
+    "title": "Connecting oncology data to research questions",
+    "domain": "MULTIMODAL DATA · PRECISION MEDICINE",
+    "summary": "Scientific data strategy across molecular, clinical, registry, imaging and biomarker resources.",
+    "fields": [
+      [
+        "Context",
+        "Research leadership at Winship Cancer Institute / Emory University School of Medicine across three oncology research programs."
+      ],
+      [
+        "The challenge",
+        "Align heterogeneous data resources with scientific objectives and institutional requirements."
+      ],
+      [
+        "Paramita’s role",
+        "Director, Research Projects, since June 2026; previously Scientific Operations Lead, Oncology Data & Strategic Partnerships."
+      ],
+      [
+        "Approach",
+        "Data acquisition strategy, fit-for-purpose assessment, institutional collaboration, data-use agreements, vendor coordination and quality controls."
+      ],
+      [
+        "Evidence / scale",
+        "Molecular profiling, EHR-derived clinical data, tumor registries, imaging and biomarkers; institutional AWS and HPC resources."
+      ],
+      [
+        "Contribution",
+        "Scientific and operational coordination that connects research priorities with usable data, reproducible pipelines and program execution."
+      ],
+      [
+        "Responsible research",
+        "Access controls, IRB/HIPAA requirements, data-use terms, provenance and reproducibility inform the work."
+      ]
+    ],
+    "links": [
+      [
+        "Scientific leadership",
+        "leadership.html"
+      ]
+    ]
+  },
+  {
+    "id": "clinical-ai",
+    "title": "Computation with a clear scientific purpose",
+    "domain": "AI-ENABLED RESEARCH · VALIDATION",
+    "summary": "A concrete machine-learning example, alongside scientific coordination of oncology data and analytical priorities.",
+    "fields": [
+      [
+        "Context",
+        "COST is a collaborative COVID-19 severity prediction research tool, documented in the master CV as a 2021 project."
+      ],
+      [
+        "The challenge",
+        "Connect biological input data with a computational severity-classification workflow and explicit evaluation."
+      ],
+      [
+        "Paramita’s role",
+        "Co-developer with Mariam Nawaz and Neharika Bhatia. The master CV documents preprocessing, classifier development and model evaluation."
+      ],
+      [
+        "Approach",
+        "A computational classification workflow with data preparation and evaluation. The public repository describes NK-cell single-cell transcriptome inputs. Current oncology work is a separate strand of scientific context, data strategy and analytical coordination."
+      ],
+      [
+        "Evidence / scale",
+        "The documented COST project provides a specific example of model-development work. Current oncology data leadership is a separate strand of experience."
+      ],
+      [
+        "Contribution",
+        "Practical computational experience combined with the ability to connect clinical objectives, data readiness and analytical interpretation."
+      ],
+      [
+        "Responsible research",
+        "Intended use, human review, validation, representativeness and limitations matter when moving from a research model toward use."
+      ]
+    ],
+    "links": [
+      [
+        "COST research repository",
+        "https://github.com/pchatterjee7/COST-Covid19-Severity-Prediction-Tool"
+      ],
+      [
+        "Responsible AI perspective",
+        "ai-governance.html"
+      ],
+      [
+        "Clinical trials, AI & omics writing",
+        "blog-2025-01-09-ClinicalTrials.html"
+      ]
+    ]
+  },
+  {
+    "id": "cell-therapy",
+    "title": "Cell therapy through a single-cell lens",
+    "domain": "SINGLE-CELL · MULTI-OMICS · TRANSLATION",
+    "summary": "Analytical strategy and omics program leadership connecting cell products to biological interpretation.",
+    "fields": [
+      [
+        "Context",
+        "MILES osteoarthritis clinical-trial work and related cell-characterization programs at Georgia Tech’s Marcus Center for Cell Characterization & Manufacturing."
+      ],
+      [
+        "The challenge",
+        "Interpret heterogeneous cell products and clinical samples across sites and biological modalities."
+      ],
+      [
+        "Paramita’s role",
+        "Research Scientist II / Genomics and Characterization Lead, August 2017–September 2024; analytical strategy, pipeline development, biological interpretation, data management and program leadership."
+      ],
+      [
+        "Approach",
+        "Single-cell RNA sequencing, transcriptomics and multi-omics pipelines, with reproducible R, Python and Bash workflows on institutional HPC."
+      ],
+      [
+        "Evidence / scale",
+        "500+ samples across clinical-trial omics programs; multi-site and multi-product cell-therapy research."
+      ],
+      [
+        "Contribution",
+        "Scientific outputs include the 2026 Molecular Therapy Nucleic Acids paper, 2024 iScience study and the 2023 MILES trial publication in Nature Medicine."
+      ],
+      [
+        "Responsible research",
+        "Sample and data quality, harmonization, reproducibility and biological context support interpretation across cell products and donors."
+      ]
+    ],
+    "links": [
+      [
+        "Original single-cell figure & abstract",
+        "projects/details/Project1.html"
+      ],
+      [
+        "Published research",
+        "publications.html"
+      ]
+    ]
+  },
+  {
+    "id": "public-health",
+    "title": "Genomics infrastructure for public health",
+    "domain": "GENOMIC SURVEILLANCE · PEOPLE LEADERSHIP",
+    "summary": "Team leadership and reproducible computational infrastructure supporting genomic surveillance.",
+    "fields": [
+      [
+        "Context",
+        "Leidos, supporting CDC/NCEZID, September 2024–January 2025."
+      ],
+      [
+        "The challenge",
+        "Support molecular epidemiology and genomic surveillance with consistent computational environments and responsive scientific support."
+      ],
+      [
+        "Paramita’s role",
+        "Bioinformatics Team Lead, leading four bioinformaticians."
+      ],
+      [
+        "Approach",
+        "RHEL8 HPC environment, institutional modules and SOPs, Nextflow modernization, WGS and variant-processing workflows."
+      ],
+      [
+        "Evidence / scale",
+        "Four-person bioinformatics team; stakeholder reporting and ServiceNow/helpdesk operations."
+      ],
+      [
+        "Contribution",
+        "Scientific infrastructure, documented workflows, team mentoring and support processes for scalable genomics work."
+      ],
+      [
+        "Responsible research",
+        "Reproducibility, environment consistency, documentation and accountable support practices underpin reliable analysis."
+      ]
+    ],
+    "links": [
+      [
+        "People & infrastructure leadership",
+        "leadership.html"
+      ]
+    ]
+  },
+  {
+    "id": "program-leadership",
+    "title": "Building the conditions for scientific progress",
+    "domain": "RESEARCH STRATEGY · PROGRAM LEADERSHIP",
+    "summary": "Connecting scientific priorities, partnerships, resources and execution across research programs.",
+    "fields": [
+      [
+        "Context",
+        "Research programs spanning Georgia Tech and Emory, from cell characterization to oncology data and evidence generation."
+      ],
+      [
+        "The challenge",
+        "Keep scientific objectives, budgets, milestones, vendors, people and institutional dependencies aligned."
+      ],
+      [
+        "Paramita’s role",
+        "Scientific program leadership, operating-model development, stakeholder coordination, grant development and research-infrastructure planning."
+      ],
+      [
+        "Approach",
+        "Program tracking, SOPs, cross-functional communication, vendor evaluation, milestone planning and staff coordination; a business perspective informed by an MBA and structured execution informed by PMP certification."
+      ],
+      [
+        "Evidence / scale",
+        "Contributed to securing $1.8M for MILES and $1.7M for NIH-RMIP-IDCCH: $3.5M in documented awarded funding. Separately, co-led a $10M+ PCF Tactical Award application; this is an application, not an award."
+      ],
+      [
+        "Contribution",
+        "Scientific strategy supported by practical operating models, partnerships and resource decisions, including evaluation of $2.5M in capital equipment."
+      ],
+      [
+        "Responsible research",
+        "Contribution context, transparent funding status, vendor/data-use requirements and documented responsibilities guide the portfolio."
+      ]
+    ],
+    "links": [
+      [
+        "Leadership evidence",
+        "leadership.html"
+      ]
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+---
+import Site from '../layouts/Site.astro';
+import ResearchWorkflow from '../components/ResearchWorkflow.astro';
+
+import { researchLifecycle, multimodalModel, aiLifecycle } from '../data/workflows';
+---
+<Site title="Professional Operating Model | Bench2Bytes"><div class="page-heading"><p class="eyebrow">SCIENCE / DATA / EVIDENCE</p><h1>How research connects.</h1><p class="lede">Science → data → evidence → decisions. AI and computation operate across this continuum, alongside stewardship and program leadership. The models show a way of thinking across disciplines; methods are selected for each research question.</p></div>
+ <section class="section"><ResearchWorkflow id="general-research" title="Research lifecycle" stages={researchLifecycle} stewardship /></section>
+ <section class="section"><div class="input-sources" aria-label="Potential research inputs"><span>Clinical data</span><span>Genomics</span><span>Imaging</span><span>Real-world data</span></div><ResearchWorkflow id="multimodal-research" title="Multimodal research concept" stages={multimodalModel} /></section>
+ <section class="section"><ResearchWorkflow id="ai-research" title="AI-enabled research lifecycle" stages={aiLifecycle} /><p class="fine">Stewardship, responsible use, and validation inform relevant stages throughout this illustrative process.</p></section>
+ 
+</Site>

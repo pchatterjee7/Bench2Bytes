@@ -1,0 +1,188 @@
+{
+  "primaryConfirmedByUser": "master",
+  "paragraphConvention": "P0-based direct Word body paragraphs, including empty paragraphs; concatenated w:t text. No CV contact details copied.",
+  "sources": [
+    {
+      "id": "master",
+      "path": "/Users/paramitachatterjee/Documents/CV_Paro/Paramita_Chatterjee_CV_Master.docx",
+      "sha256": "f2a76bd74fa57e8dd9ded155408692f5cf2b9d32e32dc9f867d92aaed4c30efd"
+    },
+    {
+      "id": "academic",
+      "path": "/Users/paramitachatterjee/Documents/CV_Paro/Paramita_Chatterjee_CV_Academic.docx",
+      "sha256": "c8bee4440f3aa3ecc4f28da175f8a4de4da4c3991b5c6eb5b20f72fc7bf8b45d"
+    },
+    {
+      "id": "industry-rwe",
+      "path": "/Users/paramitachatterjee/Documents/CV_Paro/Paramita_Chatterjee_CV_Industry_RWE.docx",
+      "sha256": "e5f9751a2805bbd7e5c2516d9846f5dbf63389986034ced8a2553f0c306b61eb"
+    },
+    {
+      "id": "governance",
+      "path": "/Users/paramitachatterjee/Documents/CV_Paro/GT_AI_Governance/Paramita-Chatterjee_CV.docx",
+      "sha256": "2619a56165dd02841b0b74d6427995983ee56db6596d108cbf28efbe9017c406"
+    }
+  ],
+  "claims": [
+    {
+      "claim": "Current role, prior roles and dates",
+      "source": "master",
+      "paragraphs": [
+        6,
+        7,
+        16,
+        23,
+        29,
+        37,
+        41
+      ],
+      "override": "Explicit Phase 3 instructions give authoritative titles/dates."
+    },
+    {
+      "claim": "942,124-patient RWD study, corresponding author, endpoints and survival methods, manuscript in preparation",
+      "source": "master",
+      "paragraphs": [
+        11,
+        52,
+        53,
+        54,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75
+      ]
+    },
+    {
+      "claim": "Three oncology programs; data acquisition, DUA, AWS/HPC, SOPs and operating models",
+      "source": "master",
+      "paragraphs": [
+        8,
+        10,
+        13,
+        14
+      ]
+    },
+    {
+      "claim": "Multimodal clinical, imaging and molecular data; IRB/HIPAA requirements",
+      "source": "academic",
+      "paragraphs": [
+        12,
+        13
+      ]
+    },
+    {
+      "claim": "Four bioinformaticians; CDC RHEL8/modules/SOP, Nextflow, WGS and ServiceNow",
+      "source": "master",
+      "paragraphs": [
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ]
+    },
+    {
+      "claim": "500+ sample omics programs, pipelines, MILES, biology and program leadership",
+      "source": "master",
+      "paragraphs": [
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ]
+    },
+    {
+      "claim": "$1.8M MILES + $1.7M NIH-RMIP-IDCCH contribution; $3.5M arithmetic total",
+      "source": "master",
+      "paragraphs": [
+        34
+      ]
+    },
+    {
+      "claim": "$10M+ PCF application co-led, not award",
+      "source": "master",
+      "paragraphs": [
+        12
+      ]
+    },
+    {
+      "claim": "$2.5M capital equipment evaluated",
+      "source": "master",
+      "paragraphs": [
+        32
+      ],
+      "qualification": "Avoid ownership conflict between led vs assisted GMP infrastructure in Academic CV."
+    },
+    {
+      "claim": "Training three scientists, five graduate students, two undergraduates; ISCT award",
+      "source": "master",
+      "paragraphs": [
+        36,
+        89
+      ]
+    },
+    {
+      "claim": "COST2021 severity classifier preprocessing, model development and evaluation",
+      "source": "master",
+      "paragraphs": [
+        76,
+        77
+      ]
+    },
+    {
+      "claim": "18+ peer-reviewed record",
+      "source": "master",
+      "paragraphs": [
+        94
+      ],
+      "qualification": "CV-stated overall record; DOI inventory currently identifies16 published selected records."
+    },
+    {
+      "claim": "Education and PMP2026",
+      "source": "user-phase3",
+      "qualification": "Explicit user facts supersede older PMP in-progress entries; governance CV P43 also lists2026."
+    },
+    {
+      "claim": "Published/preprint titles, full author order, journal and year",
+      "source": "Crossref DOI metadata",
+      "records": [
+        "v2/src/data/bibliography.json",
+        "v2/src/data/preprints.json"
+      ],
+      "qualification": "Each record stores its precise API source URL."
+    },
+    {
+      "claim": "Selected ISCT and CMAT abstracts",
+      "source": "master",
+      "paragraphs": [
+        117,
+        118,
+        119
+      ]
+    },
+    {
+      "claim": "Historical writing, figures, abstracts, tool and legacy talk links",
+      "source": "preserved original repository",
+      "records": [
+        "docs/preservation-manifest.json",
+        "v2/src/data/legacy.json"
+      ]
+    },
+    {
+      "claim": "COST collaborative authors and NK-cell transcriptome input; CV input-description discrepancy recorded internally",
+      "source": "https://github.com/pchatterjee7/COST-Covid19-Severity-Prediction-Tool",
+      "qualification": "Public repository reviewed2026-10-05; no clinical deployment inferred."
+    },
+    {
+      "claim": "Linked defense event title and April24,2024 date",
+      "source": "https://bioinformatics.gatech.edu/paramita-chatterjee-bioinformatics-thesis-defense",
+      "qualification": "Distinct from user-provided dissertation title; internal discrepancy recorded."
+    }
+  ]
+}

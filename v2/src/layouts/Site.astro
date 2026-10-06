@@ -1,0 +1,34 @@
+---
+import '../styles/global.css';
+import { navigation, url } from '../data/site';
+const { title, description = 'Paramita Chatterjee, PhD, MBA, PMP — Scientific Research & Innovation Leader — AI and data, precision medicine, real-world evidence, genomics, and research strategy.', historical = false } = Astro.props;
+const path = Astro.url.pathname;
+const canonical = new URL(path, 'https://pchatterjee7.github.io').href;
+---
+<!doctype html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+ <title>{title}</title><meta name="description" content={description} /><link rel="canonical" href={canonical} />
+ <meta property="og:title" content={title} /><meta property="og:description" content={description} /><meta property="og:type" content="website" /><meta property="og:url" content={canonical} />
+ <meta name="robots" content="noindex, nofollow" />
+</head>
+<body>
+ <a class="skip-link" href="#main-content">Skip to content</a>
+ <div class="preview-label">BENCH2BYTES V2 <span>Local portfolio preview</span></div>
+ <header class="site-header wrap">
+  <a class="wordmark" href={url()} aria-label="Bench2Bytes home">Bench<span>2</span>Bytes<span class="brand-dot" aria-hidden="true">.</span></a>
+  <nav aria-label="Primary navigation"><ul>{navigation.map(([label, href]) => <li><a href={url(href)} aria-current={(href ? path.endsWith('/'+href) : path === url() || path.endsWith('/index.html')) ? 'page' : undefined}>{label}</a></li>)}</ul></nav>
+  <a class="contact-link" href={url('contact.html')}>Contact <span aria-hidden="true">↗</span></a>
+ </header>
+ <main id="main-content" class="wrap" tabindex="-1">
+  {historical && <aside class="historical-note">Historical writing · Original article text, date and references.</aside>}
+  <slot />
+ </main>
+ <footer class="site-footer wrap" id="contact">
+  <div><a class="wordmark" href={url()}>Bench<span>2</span>Bytes.</a><p>Science, thoughtfully translated.</p></div>
+  <div><a href="mailto:paramita.chatterjee07@gmail.com">Email</a><a href="https://www.linkedin.com/in/paramitachatterjee2022/">LinkedIn</a><a href="https://github.com/pchatterjee7">GitHub</a><a href="https://scholar.google.com/citations?user=YlVon4IAAAAJ&hl=en">Google Scholar</a></div>
+  <p class="fine">© 2026 Paramita Chatterjee · Private local preview</p>
+ </footer>
+</body>
+</html>

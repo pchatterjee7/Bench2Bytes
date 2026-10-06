@@ -1,0 +1,207 @@
+{
+  "preview": "http://127.0.0.1:4321/Bench2Bytes/",
+  "resources": 50,
+  "errors": [],
+  "records": [
+    {
+      "path": "10x_usergroupmeeting.pdf",
+      "status": 200
+    },
+    {
+      "path": "Enhancing Clinical Trial Design for AI modeling.docx",
+      "status": 200
+    },
+    {
+      "path": "Enhancing Clinical Trial Design with AI.docx",
+      "status": 200
+    },
+    {
+      "path": "_astro/Site.DJxJhhrL.css",
+      "status": 200
+    },
+    {
+      "path": "about.html",
+      "status": 200
+    },
+    {
+      "path": "ai-governance.html",
+      "status": 200
+    },
+    {
+      "path": "blog-2024-12-31-scRNAseq-QC-WetLab.html",
+      "status": 200
+    },
+    {
+      "path": "blog-2025-01-09-ClinicalTrials.html",
+      "status": 200
+    },
+    {
+      "path": "blog-2025-03-18-SingleCellClustering.html",
+      "status": 200
+    },
+    {
+      "path": "blog.html",
+      "status": 200
+    },
+    {
+      "path": "clinical_trial_AI.html",
+      "status": 200
+    },
+    {
+      "path": "contact.html",
+      "status": 200
+    },
+    {
+      "path": "css/style.css",
+      "status": 200
+    },
+    {
+      "path": "images/Clinical_trial_blog_cover.png",
+      "status": 200
+    },
+    {
+      "path": "images/Enhanced_Monthly_Budget.png",
+      "status": 200
+    },
+    {
+      "path": "images/SingleCell_Clustering_Blog_Cover.png",
+      "status": 200
+    },
+    {
+      "path": "images/all_methods_umap_group_by_sites.pdf",
+      "status": 200
+    },
+    {
+      "path": "images/disease_category_analysis.png",
+      "status": 200
+    },
+    {
+      "path": "images/omics_combinations_distribution_filtered.png",
+      "status": 200
+    },
+    {
+      "path": "images/profile.jpeg",
+      "status": 200
+    },
+    {
+      "path": "images/research_tools.png",
+      "status": 200
+    },
+    {
+      "path": "images/scRNAseq_blog_image.png",
+      "status": 200
+    },
+    {
+      "path": "images/umap_methods.png",
+      "status": 200
+    },
+    {
+      "path": "images/umap_vs_tsne.png",
+      "status": 200
+    },
+    {
+      "path": "index.html",
+      "status": 200
+    },
+    {
+      "path": "leadership.html",
+      "status": 200
+    },
+    {
+      "path": "presentations.html",
+      "status": 200
+    },
+    {
+      "path": "projects/Project1_abstract.pdf",
+      "status": 200
+    },
+    {
+      "path": "projects/Project2_abstract.pdf",
+      "status": 200
+    },
+    {
+      "path": "projects/Project3_abstract.pdf",
+      "status": 200
+    },
+    {
+      "path": "projects/Project4_abstract.pdf",
+      "status": 200
+    },
+    {
+      "path": "projects/Project5_abstract.pdf",
+      "status": 200
+    },
+    {
+      "path": "projects/details/Project1.html",
+      "status": 200
+    },
+    {
+      "path": "projects/details/Project2.html",
+      "status": 200
+    },
+    {
+      "path": "projects/details/Project3.html",
+      "status": 200
+    },
+    {
+      "path": "projects/details/Project4.html",
+      "status": 200
+    },
+    {
+      "path": "projects/details/Project5.html",
+      "status": 200
+    },
+    {
+      "path": "projects/images/Project1_Picture1.jpg",
+      "status": 200
+    },
+    {
+      "path": "projects/images/Project1_Picture2.jpg",
+      "status": 200
+    },
+    {
+      "path": "projects/images/Project2_Picture1.png",
+      "status": 200
+    },
+    {
+      "path": "projects/images/Project3_Picture1.png",
+      "status": 200
+    },
+    {
+      "path": "projects/images/Project4_Picture1.png",
+      "status": 200
+    },
+    {
+      "path": "projects/images/Project5_Picture1.png",
+      "status": 200
+    },
+    {
+      "path": "projects/images/covid_tool_image.jpg",
+      "status": 200
+    },
+    {
+      "path": "projects/images/research_tools.png",
+      "status": 200
+    },
+    {
+      "path": "projects.html",
+      "status": 200
+    },
+    {
+      "path": "publications.html",
+      "status": 200
+    },
+    {
+      "path": "research-models.html",
+      "status": 200
+    },
+    {
+      "path": "talks-writing.html",
+      "status": 200
+    },
+    {
+      "path": "videos/10xgenomics-video.html",
+      "status": 200
+    }
+  ]
+}

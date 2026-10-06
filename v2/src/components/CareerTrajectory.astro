@@ -1,0 +1,11 @@
+---
+const roles = [
+['June 2026–present','Director, Research Projects','Winship Cancer Institute / Emory University School of Medicine','Scientific strategy, oncology research programs, data partnerships and evidence generation.'],
+['February 2025–June 2026','Scientific Operations Lead, Oncology Data & Strategic Partnerships','Emory University','Clinical and multimodal data strategy, institutional coordination and operating models.'],
+['September 2024–January 2025','Bioinformatics Team Lead','Leidos, supporting CDC/NCEZID','People leadership, genomic surveillance and scalable computational infrastructure.'],
+['August 2017–September 2024','Research Scientist II / Genomics and Characterization Lead','Marcus Center for Cell Characterization & Manufacturing, Georgia Tech','Single-cell and multi-omics, clinical-trial programs and translational cell biology.'],
+['October 2015–August 2017','Research Scientist I','Georgia Institute of Technology','Experimental biology, genomics, epigenomics and reproducible analytical methods.'],
+['August 2011–August 2013','Research Technician','Georgia Institute of Technology','Experimental and molecular biology foundation.']];
+---
+<p class="trajectory-intro">An expanding scope: experimental biology → genomics → single-cell and translational research → scientific and technical leadership → oncology evidence and data strategy. Each stage builds on the disciplines that came before it.</p>
+<ol class="career-timeline">{roles.map(([date,title,org,detail]) => <li><p class="eyebrow">{date}</p><details><summary><strong>{title}</strong><span>{org}</span></summary><p>{detail}</p></details></li>)}</ol>

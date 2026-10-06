@@ -1,0 +1,12 @@
+{
+  "httpRequests": 50,
+  "issues": [],
+  "contrastOnCream": {
+    "ink": 12.85,
+    "teal": 5.94,
+    "gold": 5.03,
+    "coral": 5.1,
+    "muted": 5.9
+  },
+  "contrastNotes": "Gold-light is decorative only; listed text colors exceed 4.5:1 on cream."
+}

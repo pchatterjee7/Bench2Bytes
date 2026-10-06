@@ -1,0 +1,10 @@
+---
+interface Field { label: string; content: string; }
+interface Props { title?: string; fields?: Field[]; pending?: boolean; }
+const { title = 'Case-study narrative', fields, pending = true } = Astro.props;
+const sections = fields ?? ['Context','Question / challenge','My role','Approach','Evidence / validation','Outcome','Related publications / outputs'].map(label => ({label, content:'Verified content pending.'}));
+---
+<section class="case-study" aria-label={title}>
+ <div class="case-study-heading"><p class="eyebrow">{pending ? 'PHASE 3 / CONTENT STRUCTURE' : 'RESEARCH CASE'}</p><h2>{title}</h2>{pending && <p class="fine">A reusable editorial structure. Fields will be included only when supported by the case.</p>}</div>
+ <dl class="case-study-fields">{sections.map((field,i) => <div><dt><span aria-hidden="true">{String(i+1).padStart(2,'0')}</span>{field.label}</dt><dd>{field.content}</dd></div>)}</dl>
+</section>

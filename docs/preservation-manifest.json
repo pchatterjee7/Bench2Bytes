@@ -1,0 +1,2853 @@
+{
+  "baselineCommit": "706c27ac3a86f1460d46ff114dc81b5b628b5cd1",
+  "source": "current origin/main fetched October 5, 2026",
+  "base": "/Bench2Bytes",
+  "homeAliases": [
+    "/Bench2Bytes/",
+    "/Bench2Bytes/index.html"
+  ],
+  "files": [
+    {
+      "path": ".DS_Store",
+      "bytes": 8196,
+      "sha256": "be46b1c7df80bd9d3c21b557d203376bf0176e248a614805f7abb7044e3cdea9",
+      "category": "metadata"
+    },
+    {
+      "path": "10x_usergroupmeeting.pdf",
+      "bytes": 197147,
+      "sha256": "b7f7523a0240e61518a5c9fa7344869a54fc58e39dc80c8cff8c7d85e3131224",
+      "category": "pdf"
+    },
+    {
+      "path": "Enhancing Clinical Trial Design for AI modeling.docx",
+      "bytes": 147140,
+      "sha256": "a2a4007f41020837ad531b5b5671980a866db8c35a1ffb8088a2c6c25fb04c03",
+      "category": "docx"
+    },
+    {
+      "path": "Enhancing Clinical Trial Design with AI.docx",
+      "bytes": 149116,
+      "sha256": "b0509d6499f2bc4b54c161244c257528cf706b1c23af12ab919029e59ef019f0",
+      "category": "docx"
+    },
+    {
+      "path": "about.html",
+      "bytes": 1364,
+      "sha256": "835422e77f2ba4ab660e7810b6c34e98ffc20b685c8f619afc1fa9bbc0ac238c",
+      "category": "html"
+    },
+    {
+      "path": "blog-2024-12-31-scRNAseq-QC-WetLab.html",
+      "bytes": 8234,
+      "sha256": "411ca0dafef2a4df95d0a09caab76b1e95a03682fc2e9419874d023d60addbcd",
+      "category": "html"
+    },
+    {
+      "path": "blog-2025-01-09-ClinicalTrials.html",
+      "bytes": 11699,
+      "sha256": "db04b9af82fe121dd0adc1fdc47a0db4efbacc359482bd33643688f201f1086a",
+      "category": "html"
+    },
+    {
+      "path": "blog-2025-03-18-SingleCellClustering.html",
+      "bytes": 6863,
+      "sha256": "0004ecdb0fcdfa70e6c3c6e9f9b2e05a3dd8550a9e451c6e63432ff2db5f32bf",
+      "category": "html"
+    },
+    {
+      "path": "blog.html",
+      "bytes": 2484,
+      "sha256": "e0724e3441b69780217670c2ae6247c0f36f424e7b287c64e37eace96ba96542",
+      "category": "html"
+    },
+    {
+      "path": "clinical_trial_AI.html",
+      "bytes": 5047,
+      "sha256": "5764405dffc7008608d698ec337c19cddc13cfdaaea178fa6eb9bf6403a87b67",
+      "category": "html"
+    },
+    {
+      "path": "contact.html",
+      "bytes": 1294,
+      "sha256": "60755156e242e786def6b23b8fa0a0e617831ea9b921cd5f799ef7f33bf11979",
+      "category": "html"
+    },
+    {
+      "path": "css/style.css",
+      "bytes": 6295,
+      "sha256": "20378d142d3132e4b41fc7afc14fa02ad56ec3339f2a285b35ef5eeea534f107",
+      "category": "css"
+    },
+    {
+      "path": "images/.DS_Store",
+      "bytes": 6148,
+      "sha256": "d65165279105ca6773180500688df4bdc69a2c7b771752f0a46ef120b7fd8ec3",
+      "category": "metadata"
+    },
+    {
+      "path": "images/Clinical_trial_blog_cover.png",
+      "bytes": 565032,
+      "sha256": "b21006740064f187939ef3be30adffe2b6ce45deb71289d9b69f8f479d86b411",
+      "category": "png"
+    },
+    {
+      "path": "images/Enhanced_Monthly_Budget.png",
+      "bytes": 15099386,
+      "sha256": "1be21b10b4f028830eaa90f1d560af3e63c5abd7cfedef558ccb242c2ee7736c",
+      "category": "png"
+    },
+    {
+      "path": "images/SingleCell_Clustering_Blog_Cover.png",
+      "bytes": 43776,
+      "sha256": "2ff3235695e4681af709fe7099655594a561deddcddf99c9d522dfa737a29f88",
+      "category": "png"
+    },
+    {
+      "path": "images/all_methods_umap_group_by_sites.pdf",
+      "bytes": 564625,
+      "sha256": "9ea514e009de3de14a9042a326529533af3c3705118d70a1e595c41959414054",
+      "category": "pdf"
+    },
+    {
+      "path": "images/disease_category_analysis.png",
+      "bytes": 34820,
+      "sha256": "7cf234fde3b8a5f5501649f115c4a3cdcd0ac7b776596dd939c756e1af320363",
+      "category": "png"
+    },
+    {
+      "path": "images/omics_combinations_distribution_filtered.png",
+      "bytes": 50846,
+      "sha256": "9589ed2f5f425ca482d33de94430a8747ead345ec51360fb2583d1833c7c754e",
+      "category": "png"
+    },
+    {
+      "path": "images/profile.jpeg",
+      "bytes": 35238,
+      "sha256": "57c3260a27ea97262bce5a718c8840b57b5e85beb192d13f10f77518ca184386",
+      "category": "jpeg"
+    },
+    {
+      "path": "images/research_tools.png",
+      "bytes": 187022,
+      "sha256": "a2e355cae8d10aeff8bcc29421c453271f02975922b3cf04174ff9ca9e48824c",
+      "category": "png"
+    },
+    {
+      "path": "images/scRNAseq_blog_image.png",
+      "bytes": 3194997,
+      "sha256": "cbc2597f94115e1d841cbba0701a9c2e02dbf26134ec309fa9d19020707ecbdd",
+      "category": "png"
+    },
+    {
+      "path": "images/umap_methods.png",
+      "bytes": 2177503,
+      "sha256": "b08c8416b2b109f611ba1d7682ab71b7d732150042562a2a0af6f704b83f229e",
+      "category": "png"
+    },
+    {
+      "path": "images/umap_vs_tsne.png",
+      "bytes": 1057858,
+      "sha256": "53214a8676fcdc1959d1d0c7576ee79858b78ceb94d2b1ec198a45beb2f31cb4",
+      "category": "png"
+    },
+    {
+      "path": "index.html",
+      "bytes": 3834,
+      "sha256": "43edb2189cf8520850f24678592312498aa83023441368851c221f0b719cc43c",
+      "category": "html"
+    },
+    {
+      "path": "presentations.html",
+      "bytes": 2908,
+      "sha256": "b9824ea3b9082d9914f585d5bd9accceeff1e81c4d997b3c24e41b3a117e2b1e",
+      "category": "html"
+    },
+    {
+      "path": "projects.html",
+      "bytes": 4784,
+      "sha256": "81029374f72ca1228901ea23008a5c987531c0293aaac9e4a0f895263db05087",
+      "category": "html"
+    },
+    {
+      "path": "projects/.DS_Store",
+      "bytes": 6148,
+      "sha256": "765453775383c12ba9b0bd1474d43879798551e6633ec23abf75e86d4e4d62da",
+      "category": "metadata"
+    },
+    {
+      "path": "projects/Project1_abstract.pdf",
+      "bytes": 1370413,
+      "sha256": "f182831fcadcc0201935f8a8d1cd8870668141147aea955a71ce47e0b834a964",
+      "category": "pdf"
+    },
+    {
+      "path": "projects/Project2_abstract.pdf",
+      "bytes": 367861,
+      "sha256": "426f7cc8f52597324c6877cb7e29b6f8fd854c1fb2c528716db512fbeb82ec92",
+      "category": "pdf"
+    },
+    {
+      "path": "projects/Project3_abstract.pdf",
+      "bytes": 1415714,
+      "sha256": "9e190adea0a391b09702bf097ec84b9f8d0018f8d98377210f3bbefb601f802f",
+      "category": "pdf"
+    },
+    {
+      "path": "projects/Project4_abstract.pdf",
+      "bytes": 837851,
+      "sha256": "488184bd1b9a4111a5ca24e8348721e135b0d4fa48475ce539b640bb8051b0b5",
+      "category": "pdf"
+    },
+    {
+      "path": "projects/Project5_abstract.pdf",
+      "bytes": 935208,
+      "sha256": "7bff874048f511d94b3cf6d47d2d9a342e933a0c1dc2afe81bb552089594ce53",
+      "category": "pdf"
+    },
+    {
+      "path": "projects/details/.DS_Store",
+      "bytes": 6148,
+      "sha256": "d65165279105ca6773180500688df4bdc69a2c7b771752f0a46ef120b7fd8ec3",
+      "category": "metadata"
+    },
+    {
+      "path": "projects/details/Project1.html",
+      "bytes": 836,
+      "sha256": "61af4aaa24e7fd0c51b72b2d64ce1032bf6a1606afc215a1400c947485af682f",
+      "category": "html"
+    },
+    {
+      "path": "projects/details/Project2.html",
+      "bytes": 846,
+      "sha256": "cacb0106d987584e1039dfcd8a5e08f9593c589db6c057b341966f5383eeb9ee",
+      "category": "html"
+    },
+    {
+      "path": "projects/details/Project3.html",
+      "bytes": 883,
+      "sha256": "b89291e82dc9c739a5c8d8ec1fabe765eb5749898dd11c57e7bc43d92eaf0223",
+      "category": "html"
+    },
+    {
+      "path": "projects/details/Project4.html",
+      "bytes": 879,
+      "sha256": "8098a3fde6d1f5dcd0bdab56e6c58f579d735684300d1954eeca27824a929ed5",
+      "category": "html"
+    },
+    {
+      "path": "projects/details/Project5.html",
+      "bytes": 858,
+      "sha256": "2c644bc66fa1add95104f5bf72b2619f0a582e9a2fac48808cba5770f2924868",
+      "category": "html"
+    },
+    {
+      "path": "projects/images/Project1_Picture1.jpg",
+      "bytes": 346450,
+      "sha256": "10baf644d320e71eb99816bb9ea33eec2f59149946df1f3d6f85fa515a8928cf",
+      "category": "jpg"
+    },
+    {
+      "path": "projects/images/Project1_Picture2.jpg",
+      "bytes": 278085,
+      "sha256": "b0d919f193fc368d9f31364794ced7d4807559cda65ed1b162ac2d65a012677b",
+      "category": "jpg"
+    },
+    {
+      "path": "projects/images/Project2_Picture1.png",
+      "bytes": 685642,
+      "sha256": "51f4b6e3334b90c4d8a17553772578f14b30e5e4e5ff1eddc80c394061d57867",
+      "category": "png"
+    },
+    {
+      "path": "projects/images/Project3_Picture1.png",
+      "bytes": 3099454,
+      "sha256": "a6c7c85e982c3c9b767c2c224f1fef015101b5d2bfa3ac90d90ccf7a56653eaf",
+      "category": "png"
+    },
+    {
+      "path": "projects/images/Project4_Picture1.png",
+      "bytes": 2289711,
+      "sha256": "2b89be821afe46b3199926c083b395c8303301da49b3642fc52771b089d42c8d",
+      "category": "png"
+    },
+    {
+      "path": "projects/images/Project5_Picture1.png",
+      "bytes": 1084325,
+      "sha256": "c70dd4859d77e2a3e6226bc331aaf4f84c8ed387b1f0cbbf16daff84305e0866",
+      "category": "png"
+    },
+    {
+      "path": "projects/images/covid_tool_image.jpg",
+      "bytes": 476008,
+      "sha256": "11667a03591de08fe6f291aa5ac48adaa18fff7bd4434f64c4f6eee2ba737e85",
+      "category": "jpg"
+    },
+    {
+      "path": "projects/images/research_tools.png",
+      "bytes": 187022,
+      "sha256": "a2e355cae8d10aeff8bcc29421c453271f02975922b3cf04174ff9ca9e48824c",
+      "category": "png"
+    },
+    {
+      "path": "publications.html",
+      "bytes": 5766,
+      "sha256": "8874094f48eb45afb33be67955730e97f1ac10828e0cec16d4614a5b220cad81",
+      "category": "html"
+    },
+    {
+      "path": "videos/10xgenomics-video.html",
+      "bytes": 318106,
+      "sha256": "5da6cfe9f691b281fd8d279f64825de396797344a9a05efcb85082554120e105",
+      "category": "html"
+    }
+  ],
+  "pages": [
+    {
+      "path": "about.html",
+      "publicUrl": "/Bench2Bytes/about.html",
+      "title": "About | My Bioinformatics Site",
+      "anchors": [],
+      "headings": [
+        {
+          "level": "h1",
+          "text": "About Me"
+        },
+        {
+          "level": "h2",
+          "text": "About Me"
+        }
+      ],
+      "references": [
+        {
+          "element": "link",
+          "attribute": "href",
+          "value": "css/style.css"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "index.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "about.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "publications.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "projects.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "blog.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "contact.html"
+        }
+      ],
+      "vendorArchive": false
+    },
+    {
+      "path": "blog-2024-12-31-scRNAseq-QC-WetLab.html",
+      "publicUrl": "/Bench2Bytes/blog-2024-12-31-scRNAseq-QC-WetLab.html",
+      "title": "The Interplay Between Wet Lab and Computational Practices in Single-Cell RNA-Seq",
+      "anchors": [],
+      "headings": [
+        {
+          "level": "h1",
+          "text": "The Interplay Between Wet Lab and Computational Practices in Single-Cell RNA-Seq: Shaping AI Innovations in Healthcare"
+        },
+        {
+          "level": "h2",
+          "text": "Pipeline Overview: Wet Lab and Computational Interplay"
+        },
+        {
+          "level": "h2",
+          "text": "Wet Lab Practices That Shape scRNA-Seq Data Quality"
+        },
+        {
+          "level": "h3",
+          "text": "1. Sample Collection and Preparation"
+        },
+        {
+          "level": "h3",
+          "text": "2. Cell Sorting and Viability"
+        },
+        {
+          "level": "h3",
+          "text": "3. Library Construction and Sequencing"
+        },
+        {
+          "level": "h2",
+          "text": "Computational Optimization: Bridging Bench and Analytics"
+        },
+        {
+          "level": "h3",
+          "text": "1. Normalization and Batch Effect Correction"
+        },
+        {
+          "level": "h3",
+          "text": "2. Dimensionality Reduction and Clustering"
+        },
+        {
+          "level": "h2",
+          "text": "Conclusion"
+        },
+        {
+          "level": "h2",
+          "text": "Citations"
+        }
+      ],
+      "references": [
+        {
+          "element": "link",
+          "attribute": "href",
+          "value": "css/style.css"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "index.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "about.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "publications.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "projects.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "blog.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "contact.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "https://doi.org/10.1080/21541264.2023.2200721"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "https://doi.org/10.1016/j.isci.2024.110827"
+        }
+      ],
+      "vendorArchive": false
+    },
+    {
+      "path": "blog-2025-01-09-ClinicalTrials.html",
+      "publicUrl": "/Bench2Bytes/blog-2025-01-09-ClinicalTrials.html",
+      "title": "Enhancing Clinical Trial Design with AI, Omics, and Multidisciplinary Insights",
+      "anchors": [],
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Enhancing Clinical Trial Design with AI, Omics, and Multidisciplinary Insights"
+        },
+        {
+          "level": "h2",
+          "text": "1. Preplanning Trials with Multidisciplinary Expertise"
+        },
+        {
+          "level": "h2",
+          "text": "2. Integrating Genomics, Multi-Omics Data, and Diagnostic Innovations"
+        },
+        {
+          "level": "h2",
+          "text": "3. Addressing Omics Disparities"
+        },
+        {
+          "level": "h2",
+          "text": "4. Distribution of Omics Type Combinations in Studies"
+        },
+        {
+          "level": "h2",
+          "text": "5. Addressing Controls and Bias"
+        },
+        {
+          "level": "h2",
+          "text": "6. Ethical Considerations and AI Challenges"
+        },
+        {
+          "level": "h2",
+          "text": "Conclusion"
+        },
+        {
+          "level": "h2",
+          "text": "Citations"
+        }
+      ],
+      "references": [
+        {
+          "element": "link",
+          "attribute": "href",
+          "value": "css/style.css"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "index.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "about.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "publications.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "projects.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "blog.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "contact.html"
+        },
+        {
+          "element": "img",
+          "attribute": "src",
+          "value": "images/disease_category_analysis.png"
+        },
+        {
+          "element": "img",
+          "attribute": "src",
+          "value": "images/omics_combinations_distribution_filtered.png"
+        }
+      ],
+      "vendorArchive": false
+    },
+    {
+      "path": "blog-2025-03-18-SingleCellClustering.html",
+      "publicUrl": "/Bench2Bytes/blog-2025-03-18-SingleCellClustering.html",
+      "title": "Decoding Single-Cell Clustering: Why More UMAP Clusters Don\u2019t Mean More Cell Types",
+      "anchors": [],
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Decoding Single-Cell Clustering: Why More UMAP Clusters Don\u2019t Mean More Cell Types"
+        },
+        {
+          "level": "h2",
+          "text": "Understanding Clustering in scRNA-seq"
+        },
+        {
+          "level": "h2",
+          "text": "Cell Types vs. Cell States: What\u2019s the Difference?"
+        },
+        {
+          "level": "h2",
+          "text": "Why Clustering Can Overestimate Cell Types"
+        },
+        {
+          "level": "h3",
+          "text": "1. UMAP Distorts High-Dimensional Space"
+        },
+        {
+          "level": "h3",
+          "text": "2. Over-Resolution in Clustering Algorithms"
+        },
+        {
+          "level": "h3",
+          "text": "3. Pseudotemporal Continuums"
+        },
+        {
+          "level": "h3",
+          "text": "4. Cell Cycle Effects"
+        },
+        {
+          "level": "h3",
+          "text": "5. The Effect of Integration Methods on UMAP Clusters"
+        },
+        {
+          "level": "h2",
+          "text": "How to Avoid Over-Interpretation"
+        },
+        {
+          "level": "h2",
+          "text": "Conclusion"
+        },
+        {
+          "level": "h2",
+          "text": "References"
+        }
+      ],
+      "references": [
+        {
+          "element": "link",
+          "attribute": "href",
+          "value": "css/style.css"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "index.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "about.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "publications.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "projects.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "blog.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "contact.html"
+        },
+        {
+          "element": "img",
+          "attribute": "src",
+          "value": "images/umap_methods.png"
+        }
+      ],
+      "vendorArchive": false
+    },
+    {
+      "path": "blog.html",
+      "publicUrl": "/Bench2Bytes/blog.html",
+      "title": "Blog | Bench2Bytes",
+      "anchors": [],
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Blog"
+        },
+        {
+          "level": "h3",
+          "text": "The Interplay Between Wet Lab and Computational Practices in Single-Cell RNA-Seq"
+        },
+        {
+          "level": "h3",
+          "text": "Enhancing Clinical Trial Design with AI, Omics, and Multidisciplinary Insights"
+        },
+        {
+          "level": "h3",
+          "text": "Decoding Single-Cell Clustering: Why More UMAP Clusters Don\u2019t Mean More Cell Types"
+        }
+      ],
+      "references": [
+        {
+          "element": "link",
+          "attribute": "href",
+          "value": "css/style.css"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "index.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "about.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "publications.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "projects.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "blog.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "contact.html"
+        },
+        {
+          "element": "img",
+          "attribute": "src",
+          "value": "images/scRNAseq_blog_image.png"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "blog-2024-12-31-scRNAseq-QC-WetLab.html"
+        },
+        {
+          "element": "img",
+          "attribute": "src",
+          "value": "images/Clinical_trial_blog_cover.png"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "blog-2025-01-09-ClinicalTrials.html"
+        },
+        {
+          "element": "img",
+          "attribute": "src",
+          "value": "images/SingleCell_Clustering_Blog_Cover.png"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "blog-2025-03-18-SingleCellClustering.html"
+        }
+      ],
+      "vendorArchive": false
+    },
+    {
+      "path": "clinical_trial_AI.html",
+      "publicUrl": "/Bench2Bytes/clinical_trial_AI.html",
+      "title": "Enhancing Clinical Trial Design with AI",
+      "anchors": [],
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Enhancing Clinical Trial Design with AI, Omics, and Multidisciplinary Insights"
+        },
+        {
+          "level": "h2",
+          "text": "1. Preplanning Trials with Multidisciplinary Expertise"
+        },
+        {
+          "level": "h2",
+          "text": "2. Integrating Genomics, Multi-Omics Data, and Diagnostic Innovations"
+        },
+        {
+          "level": "h2",
+          "text": "3. Addressing Omics Disparities"
+        },
+        {
+          "level": "h2",
+          "text": "4. Ethical Considerations and AI Challenges"
+        },
+        {
+          "level": "h2",
+          "text": "5. Citations"
+        }
+      ],
+      "references": [
+        {
+          "element": "link",
+          "attribute": "href",
+          "value": "css/blog2-style.css"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "index.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "about.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "publications.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "projects.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "blog.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "contact.html"
+        },
+        {
+          "element": "img",
+          "attribute": "src",
+          "value": "images/disease_category_analysis.png"
+        },
+        {
+          "element": "img",
+          "attribute": "src",
+          "value": "images/omics_combinations_distribution_filtered.png"
+        }
+      ],
+      "vendorArchive": false
+    },
+    {
+      "path": "contact.html",
+      "publicUrl": "/Bench2Bytes/contact.html",
+      "title": "Contact | My Bioinformatics Site",
+      "anchors": [],
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Contact Me"
+        },
+        {
+          "level": "h2",
+          "text": "Connect with Me"
+        }
+      ],
+      "references": [
+        {
+          "element": "link",
+          "attribute": "href",
+          "value": "css/style.css"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "index.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "about.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "publications.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "projects.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "blog.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "contact.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "mailto:paramita.chatterjee07@gmail.com"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "https://www.linkedin.com/in/paramitachatterjee2022/"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "https://github.com/pchatterjee7"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "https://scholar.google.com/citations?user=YlVon4IAAAAJ&hl=en"
+        }
+      ],
+      "vendorArchive": false
+    },
+    {
+      "path": "index.html",
+      "publicUrl": "/Bench2Bytes/index.html",
+      "title": "Bench2Bytes | Paramita Chatterjee",
+      "anchors": [
+        "about",
+        "projects",
+        "publications",
+        "contact"
+      ],
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Bench2Bytes"
+        },
+        {
+          "level": "h2",
+          "text": "Hi! I'm Paramita Chatterjee"
+        },
+        {
+          "level": "h2",
+          "text": "About Me"
+        },
+        {
+          "level": "h2",
+          "text": "Key Projects"
+        },
+        {
+          "level": "h2",
+          "text": "Publications"
+        },
+        {
+          "level": "h2",
+          "text": "Connect with Me"
+        }
+      ],
+      "references": [
+        {
+          "element": "link",
+          "attribute": "href",
+          "value": "css/style.css"
+        },
+        {
+          "element": "link",
+          "attribute": "href",
+          "value": "https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"
+        },
+        {
+          "element": "img",
+          "attribute": "src",
+          "value": "images/profile.jpeg"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "index.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "about.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "publications.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "projects.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "presentations.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "blog.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "contact.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "about.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "projects.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "publications.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "https://scholar.google.com/citations?user=YlVon4IAAAAJ&hl=en"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "mailto:paramita.chatterjee07@gmail.com"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "https://www.linkedin.com/in/paramitachatterjee2022/"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "https://github.com/pchatterjee7"
+        }
+      ],
+      "vendorArchive": false
+    },
+    {
+      "path": "presentations.html",
+      "publicUrl": "/Bench2Bytes/presentations.html",
+      "title": "Presentations | Bench2Bytes",
+      "anchors": [],
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Presentations & Webinars"
+        },
+        {
+          "level": "h2",
+          "text": "Public Speaking and Conference Presentations"
+        }
+      ],
+      "references": [
+        {
+          "element": "link",
+          "attribute": "href",
+          "value": "css/style.css"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "index.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "about.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "publications.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "projects.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "presentations.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "blog.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "contact.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "https://www.10xgenomics.com/videos/4ga78otsxk?autoplay=true"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "https://pchatterjee7.github.io/Bench2Bytes/10x_usergroupmeeting.pdf"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "https://example.com/abstract_link1"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "https://example.com/abstract_link2"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "https://bioinformatics.gatech.edu/paramita-chatterjee-bioinformatics-thesis-defense"
+        }
+      ],
+      "vendorArchive": false
+    },
+    {
+      "path": "projects.html",
+      "publicUrl": "/Bench2Bytes/projects.html",
+      "title": "Projects | Bench2Bytes",
+      "anchors": [],
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Research Projects"
+        },
+        {
+          "level": "h3",
+          "text": "Single-cell transcriptome and crosstalk analysis in knee OA"
+        },
+        {
+          "level": "h3",
+          "text": "Cell-based vs corticosteroid injections in OA"
+        },
+        {
+          "level": "h3",
+          "text": "Single-cell epitope-transcriptomics for lung cell response"
+        },
+        {
+          "level": "h3",
+          "text": "MSC tissue-of-origin differences in single-cell RNA-seq"
+        },
+        {
+          "level": "h3",
+          "text": "Evolutionary selection on sympathetic nervous activity"
+        },
+        {
+          "level": "h3",
+          "text": "COST Covid-19 Severity Prediction Tool"
+        },
+        {
+          "level": "h3",
+          "text": "Oncology Research Writing Tools"
+        }
+      ],
+      "references": [
+        {
+          "element": "link",
+          "attribute": "href",
+          "value": "css/style.css"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "index.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "about.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "publications.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "projects.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "presentations.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "blog.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "contact.html"
+        },
+        {
+          "element": "img",
+          "attribute": "src",
+          "value": "projects/images/Project1_Picture1.jpg"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "projects/details/Project1.html"
+        },
+        {
+          "element": "img",
+          "attribute": "src",
+          "value": "projects/images/Project2_Picture1.png"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "projects/details/Project2.html"
+        },
+        {
+          "element": "img",
+          "attribute": "src",
+          "value": "projects/images/Project3_Picture1.png"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "projects/details/Project3.html"
+        },
+        {
+          "element": "img",
+          "attribute": "src",
+          "value": "projects/images/Project4_Picture1.png"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "projects/details/Project4.html"
+        },
+        {
+          "element": "img",
+          "attribute": "src",
+          "value": "projects/images/Project5_Picture1.png"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "projects/details/Project5.html"
+        },
+        {
+          "element": "img",
+          "attribute": "src",
+          "value": "projects/images/covid_tool_image.jpg"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "https://github.com/pchatterjee7/COST-Covid19-Severity-Prediction-Tool"
+        },
+        {
+          "element": "img",
+          "attribute": "src",
+          "value": "projects/images/research_tools.png"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "https://pchatterjee7.github.io/research-tools"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "https://github.com/pchatterjee7/research-tools"
+        }
+      ],
+      "vendorArchive": false
+    },
+    {
+      "path": "projects/details/Project1.html",
+      "publicUrl": "/Bench2Bytes/projects/details/Project1.html",
+      "title": "Single-cell transcriptome in Knee OA | Bench2Bytes",
+      "anchors": [],
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Single-cell transcriptome and crosstalk analysis in knee OA patients"
+        },
+        {
+          "level": "h2",
+          "text": "Project Details"
+        }
+      ],
+      "references": [
+        {
+          "element": "link",
+          "attribute": "href",
+          "value": "../css/style.css"
+        },
+        {
+          "element": "embed",
+          "attribute": "src",
+          "value": "../Project1_abstract.pdf"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "../Project1_abstract.pdf"
+        }
+      ],
+      "vendorArchive": false
+    },
+    {
+      "path": "projects/details/Project2.html",
+      "publicUrl": "/Bench2Bytes/projects/details/Project2.html",
+      "title": "Cell-based vs Corticosteroid Injections | Bench2Bytes",
+      "anchors": [],
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Cell-based versus corticosteroid injections for knee pain in osteoarthritis"
+        },
+        {
+          "level": "h2",
+          "text": "Project Details"
+        }
+      ],
+      "references": [
+        {
+          "element": "link",
+          "attribute": "href",
+          "value": "../css/style.css"
+        },
+        {
+          "element": "embed",
+          "attribute": "src",
+          "value": "../Project2_abstract.pdf"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "../Project2_abstract.pdf"
+        }
+      ],
+      "vendorArchive": false
+    },
+    {
+      "path": "projects/details/Project3.html",
+      "publicUrl": "/Bench2Bytes/projects/details/Project3.html",
+      "title": "Epitope-transcriptomics in Lung Cell Response | Bench2Bytes",
+      "anchors": [],
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Single-cell epitope-transcriptomics reveals lung cell response kinetics to nanoparticle-delivered agonists"
+        },
+        {
+          "level": "h2",
+          "text": "Project Details"
+        }
+      ],
+      "references": [
+        {
+          "element": "link",
+          "attribute": "href",
+          "value": "../css/style.css"
+        },
+        {
+          "element": "embed",
+          "attribute": "src",
+          "value": "../Project3_abstract.pdf"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "../Project3_abstract.pdf"
+        }
+      ],
+      "vendorArchive": false
+    },
+    {
+      "path": "projects/details/Project4.html",
+      "publicUrl": "/Bench2Bytes/projects/details/Project4.html",
+      "title": "RNA-seq of MSCs Shows Tissue-of-Origin Differences | Bench2Bytes",
+      "anchors": [],
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Single-cell RNA-seq of out-of-thaw mesenchymal stromal cells reveals tissue-of-origin differences"
+        },
+        {
+          "level": "h2",
+          "text": "Project Details"
+        }
+      ],
+      "references": [
+        {
+          "element": "link",
+          "attribute": "href",
+          "value": "../css/style.css"
+        },
+        {
+          "element": "embed",
+          "attribute": "src",
+          "value": "../Project4_abstract.pdf"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "../Project4_abstract.pdf"
+        }
+      ],
+      "vendorArchive": false
+    },
+    {
+      "path": "projects/details/Project5.html",
+      "publicUrl": "/Bench2Bytes/projects/details/Project5.html",
+      "title": "Selection on Sympathetic Nervous Activity | Bench2Bytes",
+      "anchors": [],
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Selection on the regulation of sympathetic nervous activity in humans and chimpanzees"
+        },
+        {
+          "level": "h2",
+          "text": "Project Details"
+        }
+      ],
+      "references": [
+        {
+          "element": "link",
+          "attribute": "href",
+          "value": "../css/style.css"
+        },
+        {
+          "element": "embed",
+          "attribute": "src",
+          "value": "../Project5_abstract.pdf"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "../Project5_abstract.pdf"
+        }
+      ],
+      "vendorArchive": false
+    },
+    {
+      "path": "publications.html",
+      "publicUrl": "/Bench2Bytes/publications.html",
+      "title": "",
+      "anchors": [
+        "publications"
+      ],
+      "headings": [
+        {
+          "level": "h2",
+          "text": "Publications"
+        }
+      ],
+      "references": [
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": " https://doi.org/10.1016/j.isci.2024.110827"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "https://doi.org/10.1038/s41591-023-02632-w"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "https://doi.org/10.1016/j.biomaterials.2023.122097"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "https://doi.org/10.3389/fsurg.2022.934773"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "https://doi.org/10.1186/s13287-021-02627-9"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "https://doi.org/10.1038/s41467-021-21917-7"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "https://doi.org/10.1111/mec.15793"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "https://doi.org/10.1093/gbe/evaa133"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "https://doi.org/10.1371/journal.ppat.1008397"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "https://doi.org/10.1073/pnas.1907982116"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "https://doi.org/10.1101/gr.248641.119"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "https://doi.org/10.1186/s13059-019-1747-7"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "https://doi.org/10.1371/journal.pgen.1007311"
+        }
+      ],
+      "vendorArchive": false
+    },
+    {
+      "path": "videos/10xgenomics-video.html",
+      "publicUrl": "/Bench2Bytes/videos/10xgenomics-video.html",
+      "title": "Unlocking cellular secrets: The powerful role of single cell analysis in cell therapy and other clinical applications - 10x GenomicsOpen Menu",
+      "anchors": [
+        "w-json-ldwistia_50",
+        "cookieyes-banner",
+        "cky-style",
+        "ckyDetailCategorynecessary",
+        "ckyDetailCategoryfunctional",
+        "ckySwitchfunctional",
+        "ckyDetailCategoryanalytics",
+        "ckySwitchanalytics",
+        "ckyDetailCategoryperformance",
+        "ckyDetailCategoryadvertisement",
+        "ckySwitchadvertisement",
+        "ckyDetailCategoryother",
+        "ckySwitchother",
+        "__next",
+        "navMenu",
+        "__NEXT_DATA__",
+        "google-analytics",
+        "__next-route-announcer__",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "batBeacon180897672032",
+        "batBeacon2786812314",
+        "wistia_22_style",
+        "wistia-4ga78otsxk-1_popover_container",
+        "wistia-4ga78otsxk-1_popover",
+        "wistia_chrome_23",
+        "wistia_grid_53_wrapper",
+        "wistia_grid_53_above",
+        "wistia_grid_53_main",
+        "wistia_grid_53_behind",
+        "wistia_grid_53_center",
+        "wistia_simple_video_231",
+        "wistia_214_style",
+        "w-vulcan-v2-209",
+        "wistia_225_style",
+        "wistia_grid_53_front",
+        "wistia_grid_53_top_inside",
+        "wistia_grid_53_top",
+        "wistia_grid_53_bottom_inside",
+        "wistia_grid_53_bottom",
+        "wistia_grid_53_left_inside",
+        "wistia_grid_53_left",
+        "wistia_grid_53_right_inside",
+        "wistia_grid_53_right",
+        "wistia_grid_53_below",
+        "wistia_54_style",
+        "wistia-4ga78otsxk-1_popover_popover_close_button",
+        "n6ITK55j",
+        "universal_pixel_e80z8gf"
+      ],
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Unlocking cellular secrets: The powerful role of single cell analysis in cell therapy and other clinical applications"
+        },
+        {
+          "level": "h2",
+          "text": "Webinar"
+        },
+        {
+          "level": "h3",
+          "text": "Presenter"
+        },
+        {
+          "level": "h3",
+          "text": "Product"
+        },
+        {
+          "level": "h3",
+          "text": "Company"
+        },
+        {
+          "level": "h3",
+          "text": "Platforms"
+        },
+        {
+          "level": "h3",
+          "text": "Resources"
+        },
+        {
+          "level": "h3",
+          "text": "Legal Notices"
+        },
+        {
+          "level": "h3",
+          "text": "Manage Preferences"
+        },
+        {
+          "level": "h3",
+          "text": "Questions? We're here to help"
+        },
+        {
+          "level": "h3",
+          "text": "Follow us on social media"
+        }
+      ],
+      "references": [
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/bundle.min.js"
+        },
+        {
+          "element": "link",
+          "attribute": "href",
+          "value": "https://www.10xgenomics.com/favicon.ico"
+        },
+        {
+          "element": "link",
+          "attribute": "href",
+          "value": "https://www.10xgenomics.com/videos/4ga78otsxk"
+        },
+        {
+          "element": "link",
+          "attribute": "href",
+          "value": "https://www.10xgenomics.com/jp/videos/4ga78otsxk"
+        },
+        {
+          "element": "link",
+          "attribute": "href",
+          "value": "https://www.10xgenomics.com/cn/videos/4ga78otsxk"
+        },
+        {
+          "element": "link",
+          "attribute": "href",
+          "value": "https://www.10xgenomics.com/videos/4ga78otsxk"
+        },
+        {
+          "element": "link",
+          "attribute": "href",
+          "value": "https://www.10xgenomics.com/videos/4ga78otsxk"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/munchkin.js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/164493304343492"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/fbevents.js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/bat.js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/destination"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/uwt.js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/analytics.js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/js(1)"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/gtm.js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/fs.js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/polyfills-78c92fac7aa8fdd8.js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/script.js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/webpack-69fca13935867fd7.js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/framework-ba9c4721a466b508.js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/main-b4256fc5e9da04d4.js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/_app-70994302d6bde4e5.js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/97c0619d-4f0fe8d552dba736.js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/4946-ff8aef8f2cbc3a5c.js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/4324-0d3bc04ff87070d2.js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/3405-b0b90ba9502d1b9d.js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/7367-9fc49aa03d700865.js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/3825-599275d9df7d8c07.js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/103-3cec3d680c408c47.js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/5111-c748bda773058803.js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/4294-bcb8a3850c43935e.js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/3906-9495856a33b9b681.js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/5647-f715c69f61ceb6d9.js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/927-fac1aabcdfd51161.js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/1692-6f8e386c29ae7fc6.js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/4887-2a12fce897875a30.js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/9166-8760c05f7668532f.js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/4437-d270d870aede74b1.js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/9963-3eecf0406d526b58.js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/7607-2491686c3562d898.js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/9240-29d7d20c243f59a7.js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/4120-25361d743f63e995.js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/5259-391f6378431b4f3e.js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/8202-41b84459319dd503.js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/5663-9d6a6818cc1505a8.js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/6584-4b7ff6d0bdc11780.js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/8582-33b5bdcb48d441c9.js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/983-e55c73dd7f5ac629.js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/3850-491b9c8a87f8746f.js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/6523-015d4a8fa990aa0b.js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/5689-9d014a7f113f81a5.js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/[slug]-00fd58c4d86f4f80.js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/_buildManifest.js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/_ssgManifest.js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/banner.js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/munchkin(1).js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/f.txt"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/138003889.js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/E-v1.js"
+        },
+        {
+          "element": "link",
+          "attribute": "href",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/1844-73be50ae45cf7bd8.js"
+        },
+        {
+          "element": "link",
+          "attribute": "href",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/2557-f608269b76dc9536.js"
+        },
+        {
+          "element": "link",
+          "attribute": "href",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/index-e9c190a23a436fc6.js"
+        },
+        {
+          "element": "link",
+          "attribute": "href",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/support-f6d6bfb3d3b28cb8.js"
+        },
+        {
+          "element": "link",
+          "attribute": "href",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/search-ad6f579f61090e38.js"
+        },
+        {
+          "element": "link",
+          "attribute": "href",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/videos-55a310523746363d.js"
+        },
+        {
+          "element": "link",
+          "attribute": "href",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/company-3c201f520511f773.js"
+        },
+        {
+          "element": "link",
+          "attribute": "href",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/chromium-793e08449a8e9ab0.js"
+        },
+        {
+          "element": "link",
+          "attribute": "href",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/visium-738ccf29d986882b.js"
+        },
+        {
+          "element": "link",
+          "attribute": "href",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/privacy-policy-34446dadad169fd0.js"
+        },
+        {
+          "element": "link",
+          "attribute": "href",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/terms-of-use-a39fd157e9795931.js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/a3591ba5e949a37083cc6f5a4191e903.min.js"
+        },
+        {
+          "element": "link",
+          "attribute": "href",
+          "value": "https://www.10xgenomics.com/_next/static/chunks/pages/platforms/xenium-0ae3f1d58bbff33b.js"
+        },
+        {
+          "element": "link",
+          "attribute": "href",
+          "value": "https://www.10xgenomics.com/_next/static/chunks/pages/legal/legal-notices-bd853f97545b381a.js"
+        },
+        {
+          "element": "link",
+          "attribute": "href",
+          "value": "https://www.10xgenomics.com/_next/static/chunks/pages/subscribe-6b9822501104f55b.js"
+        },
+        {
+          "element": "link",
+          "attribute": "href",
+          "value": "https://www.10xgenomics.com/_next/static/chunks/pages/contact-abfe144955fba928.js"
+        },
+        {
+          "element": "link",
+          "attribute": "href",
+          "value": "https://www.10xgenomics.com/_next/static/chunks/pages/news-a4fc7972b64b19e5.js"
+        },
+        {
+          "element": "link",
+          "attribute": "href",
+          "value": "https://www.10xgenomics.com/_next/static/chunks/294-eed340a1a5d6a988.js"
+        },
+        {
+          "element": "link",
+          "attribute": "href",
+          "value": "https://www.10xgenomics.com/_next/static/chunks/pages/datasets-e73747830ebecfb6.js"
+        },
+        {
+          "element": "link",
+          "attribute": "href",
+          "value": "https://www.10xgenomics.com/_next/static/chunks/pages/distributors-748fb5d65e6be8f1.js"
+        },
+        {
+          "element": "link",
+          "attribute": "href",
+          "value": "https://www.10xgenomics.com/_next/static/chunks/pages/publications-4c793e846231d797.js"
+        },
+        {
+          "element": "link",
+          "attribute": "href",
+          "value": "https://www.10xgenomics.com/_next/static/chunks/pages/blog-6c64cb49c7214a11.js"
+        },
+        {
+          "element": "link",
+          "attribute": "href",
+          "value": "https://www.10xgenomics.com/_next/static/chunks/pages/compatible-products-11ab8f14f6aa1d52.js"
+        },
+        {
+          "element": "img",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/close.svg"
+        },
+        {
+          "element": "iframe",
+          "attribute": "src",
+          "value": "GTM-MCFL6HQ"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "https://www.10xgenomics.com/"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "https://www.10xgenomics.com/support"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "https://www.10xgenomics.com/store"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "https://www.10xgenomics.com/search"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "https://www.10xgenomics.com/videos"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "https://www.10xgenomics.com/"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "https://www.10xgenomics.com/company"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "https://investors.10xgenomics.com/overview/default.aspx"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "https://careers.10xgenomics.com/careers"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "https://www.10xgenomics.com/contact"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "https://www.10xgenomics.com/news"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "https://www.10xgenomics.com/distributors"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "https://www.10xgenomics.com/platforms/chromium"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "https://www.10xgenomics.com/platforms/visium"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "https://www.10xgenomics.com/platforms/xenium"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "https://www.10xgenomics.com/datasets"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "https://www.10xgenomics.com/publications"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "https://www.10xgenomics.com/support"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "https://www.10xgenomics.com/blog"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "https://www.10xgenomics.com/compatible-products"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "https://www.10xgenomics.com/legal/privacy-policy"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "https://www.10xgenomics.com/legal/terms-of-use"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "https://www.10xgenomics.com/legal/legal-notices"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "https://pages.10xgenomics.com/subscription.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "https://www.10xgenomics.com/videos/4ga78otsxk#"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "mailto:support@10xgenomics.com"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "tel:+19254017300"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "https://www.10xgenomics.com/subscribe"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "https://www.linkedin.com/company/10xgenomics/"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "https://twitter.com/10xgenomics"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "https://www.youtube.com/channel/UCx3Dfre5IutNPuLS4ufC9mw"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "https://www.facebook.com/10xGenomics/"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "https://www.10xgenomics.com/videos/4ga78otsxk?autoplay=true"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "https://www.10xgenomics.com/cn/videos/4ga78otsxk?autoplay=true"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "https://www.10xgenomics.com/jp/videos/4ga78otsxk?autoplay=true"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/script(1).js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/js(2)"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/up_loader.1.1.0.js"
+        },
+        {
+          "element": "img",
+          "attribute": "src",
+          "value": "https://www.facebook.com/tr?id=164493304343492&ev=PageView&noscript=1"
+        },
+        {
+          "element": "iframe",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/saved_resource.html"
+        },
+        {
+          "element": "iframe",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/activityi.html"
+        },
+        {
+          "element": "iframe",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/activityi(1).html"
+        },
+        {
+          "element": "iframe",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/932238681.html"
+        },
+        {
+          "element": "img",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/0"
+        },
+        {
+          "element": "img",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/adsct"
+        },
+        {
+          "element": "img",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/adsct(1)"
+        },
+        {
+          "element": "video",
+          "attribute": "src",
+          "value": "blob:https://www.10xgenomics.com/e838f9c6-712c-4cca-9950-4b096f92662f"
+        },
+        {
+          "element": "img",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/0129487d120e02e6bd1d3f3c9ad0d4e942465ab9.webp"
+        },
+        {
+          "element": "img",
+          "attribute": "src",
+          "value": "data:image/gif;base64,R0lGODlhRABEAIABAP///////yH5BAEAAAEALAAAAABEAEQAAAKVjI+py+0Po5y02oszBPxyoGFfR41gWJlnpKJWu5muJzvw/NbLjefjruvRfgiecPg5GI/IzpLZfEKjyelMtbKisFoXltQVfcHhkkxaZtzQ6WIwwG4/42E03Rq/M+/6Xr9/RTTxVkc2aNiWqLjI2Oj4CBkpOUlZaXmJmam5ydnp+QkaKjpKWmp6ipqqusra6voKGyvbUwAAOw=="
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/videos-55a310523746363d.js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/1844-73be50ae45cf7bd8.js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/2557-f608269b76dc9536.js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/search-ad6f579f61090e38.js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/company-3c201f520511f773.js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/support-f6d6bfb3d3b28cb8.js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/chromium-793e08449a8e9ab0.js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/visium-738ccf29d986882b.js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/privacy-policy-34446dadad169fd0.js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/index-e9c190a23a436fc6.js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/terms-of-use-a39fd157e9795931.js"
+        },
+        {
+          "element": "iframe",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/translateSandbox.html"
+        },
+        {
+          "element": "iframe",
+          "attribute": "src",
+          "value": "./Unlocking cellular secrets_ The powerful role of single cell analysis in cell therapy and other clinical applications - 10x Genomics_files/up.html"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "https://www.10xgenomics.com/_next/static/chunks/pages/platforms/xenium-0ae3f1d58bbff33b.js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "https://www.10xgenomics.com/_next/static/chunks/pages/subscribe-6b9822501104f55b.js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "https://www.10xgenomics.com/_next/static/chunks/pages/legal/legal-notices-bd853f97545b381a.js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "https://www.10xgenomics.com/_next/static/chunks/pages/contact-abfe144955fba928.js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "https://www.10xgenomics.com/_next/static/chunks/pages/news-a4fc7972b64b19e5.js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "https://www.10xgenomics.com/_next/static/chunks/294-eed340a1a5d6a988.js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "https://www.10xgenomics.com/_next/static/chunks/pages/datasets-e73747830ebecfb6.js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "https://www.10xgenomics.com/_next/static/chunks/pages/distributors-748fb5d65e6be8f1.js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "https://www.10xgenomics.com/_next/static/chunks/pages/publications-4c793e846231d797.js"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "https://www.10xgenomics.com/_next/static/chunks/pages/blog-6c64cb49c7214a11.js"
+        },
+        {
+          "element": "iframe",
+          "attribute": "src",
+          "value": "https://td.doubleclick.net/td/ga/rul?tid=G-Q76WX498JH&gacid=1722329034.1730822926&gtm=45je4au0v898410815za200zb830064045&dma=0&gcs=G111&gcd=13n3n3n3n5l1&npa=0&pscdl=noapi&_ng=1&aip=1&fledge=1&frm=0&tag_exp=101823848~101878899~101878944~101925629&z=268968102"
+        },
+        {
+          "element": "script",
+          "attribute": "src",
+          "value": "https://www.10xgenomics.com/_next/static/chunks/pages/compatible-products-11ab8f14f6aa1d52.js"
+        },
+        {
+          "element": "link",
+          "attribute": "href",
+          "value": "chrome-extension://gpaiobkfhnonedkhhfjpmhdalgeoebfa/fonts/fabric-icons.css"
+        },
+        {
+          "element": "link",
+          "attribute": "href",
+          "value": "chrome-extension://gpaiobkfhnonedkhhfjpmhdalgeoebfa/fonts/fabric-icons.css"
+        }
+      ],
+      "vendorArchive": true
+    }
+  ],
+  "policy": "Preserve original tracked files byte-for-byte. Unreferenced files are retained, not newly promoted. Historical article bodies are copied without editorial rewriting.",
+  "publications": [
+    {
+      "id": "publication-1",
+      "originalHtml": "<strong>Modeling the Human Immune Response to Severe Influenza Infection in an Immunocompetent Lung-on-Chip.</strong><br>\n            Rachel Ringquist, Eshant Bhatia, Paramita Chatterjee, Drishti Maniar, Liana Kramer et al.; <em>Nature BME</em>, Accepted Nov. 2024."
+    },
+    {
+      "id": "publication-2",
+      "originalHtml": "<strong>Single-cell transcriptome and crosstalk analysis reveal systemic alteration of immune cell phenotype and key pathways in the bone marrow of patients with knee osteoarthritis.</strong><br>\n            Paramita Chatterjee, Hazel Y. Stevens, Linda E. Kippner, Annie C. Bowles-Welch, Hicham Drissi, Kenneth Mautner, Carolyn Yeago, Greg Gibson, Krishnendu Roy; <em>iScience</em>, Sep 20, 2024. <a href=\" https://doi.org/10.1016/j.isci.2024.110827\" target=\"_blank\">Link to publication</a>"
+    },
+    {
+      "id": "publication-3",
+      "originalHtml": "<strong>Multi-Arm Randomized Multicenter Trial of Cellular Therapy for Osteoarthritis (MILES): The Need for Personalized Therapeutic Approaches for Cell-based Treatments of Knee Osteoarthritis.</strong><br>\n            Dr. Michael Gottschalk, Dr. Scott Boden, Ms. Alison Akard, Professor Won Bae, Ms. Lora Black, Dr. Blake Boggess, Ms. Paramita Chatterjee et al.; <em>Nature Medicine</em>, 29, 3120\u20133126 (2023). <a href=\"https://doi.org/10.1038/s41591-023-02632-w\" target=\"_blank\">Link to publication</a>"
+    },
+    {
+      "id": "publication-4",
+      "originalHtml": "<strong>Single-cell epitope-transcriptomics reveal lung stromal and immune cell response kinetics to nanoparticle-delivered RIG-I and TLR4 agonists.</strong><br>\n            Keenum MC, Chatterjee P, Atalis A, Pandey B, Jimenez A, Roy K; <em>Biomaterials</em>, Mar 22, 2023; 297:122097. <a href=\"https://doi.org/10.1016/j.biomaterials.2023.122097\" target=\"_blank\">Link to publication</a>"
+    },
+    {
+      "id": "publication-5",
+      "originalHtml": "<strong>Systemic Immune Modulation Alters Local Bone Regeneration in a Delayed Treatment Composite Model of Non-Union Extremity Trauma.</strong><br>\n            Casey E Vantucci, Tyler Guyer, Kelly Leguineche, Paramita Chatterjee, Angela Lin et al.; <em>Frontiers in Surgery</em>, Jul 7, 2022. <a href=\"https://doi.org/10.3389/fsurg.2022.934773\" target=\"_blank\">Link to publication</a>"
+    },
+    {
+      "id": "publication-6",
+      "originalHtml": "<strong>Single-cell RNA-seq of out-of-thaw mesenchymal stromal cells shows tissue-of-origin differences and inter-donor cell-cycle variations.</strong><br>\n            Medrano-Trochez, C., Chatterjee, P., Pradhan, P. et al.; <em>Stem Cell Research & Therapy</em>, 12, 565 (2021). <a href=\"https://doi.org/10.1186/s13287-021-02627-9\" target=\"_blank\">Link to publication</a>"
+    },
+    {
+      "id": "publication-7",
+      "originalHtml": "<strong>Evolution of DNA methylation in the human brain.</strong><br>\n            Jeong, H., Mendizabal, I., Berto, S., Paramita Chatterjee et al.; <em>Nature Communications</em>, 12, 2021. <a href=\"https://doi.org/10.1038/s41467-021-21917-7\" target=\"_blank\">Link to publication</a>"
+    },
+    {
+      "id": "publication-8",
+      "originalHtml": "<strong>Genome-wide variation in DNA methylation linked to developmental stage and chromosomal suppression of recombination in white-throated sparrows.</strong><br>\n            Sun, Dan; Layman, Thomas; Jeong, Hyeonsoo; Chatterjee, Paramita; Grogan, Kathleen; Merritt, Jennifer; Maney, Donna; Yi, Soojin; <em>Molecular Ecology</em>, Jan 9, 2021. <a href=\"https://doi.org/10.1111/mec.15793\" target=\"_blank\">Link to publication</a>"
+    },
+    {
+      "id": "publication-9",
+      "originalHtml": "<strong>Lineage and parent-of-origin effects in DNA methylation of honey bees (Apis mellifera) revealed by reciprocal crosses and whole-genome bisulfite sequencing.</strong><br>\n            Xin Wu, David A. Galbraith, Paramita Chatterjee et al.; <em>Genome Biology and Evolution</em>, Jun 29, 2020. <a href=\"https://doi.org/10.1093/gbe/evaa133\" target=\"_blank\">Link to publication</a>"
+    },
+    {
+      "id": "publication-10",
+      "originalHtml": "<strong>Distinct epigenomic and transcriptomic reprogramming associated with Wolbachia-mediated asexuality.</strong><br>\n            Xin Wu, Amelia R.I. Lindsey, Paramita Chatterjee et al.; <em>PLOS Pathogens</em>, Mar 18, 2020. <a href=\"https://doi.org/10.1371/journal.ppat.1008397\" target=\"_blank\">Link to publication</a>"
+    },
+    {
+      "id": "publication-11",
+      "originalHtml": "<strong>Accelerated evolution of oligodendrocytes in human brain.</strong><br>\n            Berto, S.; Mendizabal, I.; Usui, N.; Toriumi, K.; Chatterjee, Paramita et al.; <em>Proceedings of the National Academy of Sciences</em>, Oct 21, 2019. <a href=\"https://doi.org/10.1073/pnas.1907982116\" target=\"_blank\">Link to publication</a>"
+    },
+    {
+      "id": "publication-12",
+      "originalHtml": "<strong>Regional epigenetic differentiation of the Z Chromosome between sexes in a female-heterogametic system.</strong><br>\n            Sun, Dan; Maney, Donna; Layman, Thomas; Chatterjee, Paramita et al.; <em>Genome Research</em>, Oct 29, 2019. <a href=\"https://doi.org/10.1101/gr.248641.119\" target=\"_blank\">Link to publication</a>"
+    },
+    {
+      "id": "publication-13",
+      "originalHtml": "<strong>Cell-type specific epigenetic links to schizophrenia risk in brain.</strong><br>\n            Mendizabal, I.; Berto, S.; Usui, N.; Toriumi, K.; Chatterjee, Paramita et al.; <em>Genome Biology</em>, Jul 9, 2019. <a href=\"https://doi.org/10.1186/s13059-019-1747-7\" target=\"_blank\">Link to publication</a>"
+    },
+    {
+      "id": "publication-14",
+      "originalHtml": "<strong>Selection on the regulation of sympathetic nervous activity in humans and chimpanzees.</strong><br>\n            Lee, Kang Seon; Chatterjee, Paramita et al.; <em>PLOS Genetics</em>, Apr 19, 2018. <a href=\"https://doi.org/10.1371/journal.pgen.1007311\" target=\"_blank\">Link to publication</a>"
+    }
+  ],
+  "presentations": [
+    "\n                <strong>10x Genomics Workshop:</strong> Data Analysis Techniques (2023)\n                <br>\n                <a href=\"https://www.10xgenomics.com/videos/4ga78otsxk?autoplay=true\" target=\"_blank\" style=\"color: #005f8c; font-weight: bold; text-decoration: underline;\">\n                    Watch the Video on 10x Genomics\n                </a>\n                <br>\n                <a href=\"https://pchatterjee7.github.io/Bench2Bytes/10x_usergroupmeeting.pdf\" target=\"_blank\" style=\"color: #005f8c;\">View Flyer</a>\n            ",
+    "\n                <strong>High-Dimensional Multi-omics Comparison of Cells in Bone Marrow</strong> \u2013 ISCT, 2022, San Francisco\n                <br>\n                <a href=\"https://example.com/abstract_link1\" target=\"_blank\" style=\"color: #005f8c;\">Link to Abstract</a>\n            ",
+    "\n                <strong>Single Cell omics Comparison of Cell Therapeutics in Osteoarthritis</strong> \u2013 AWSOM, Atlanta, GA, 2022\n            ",
+    "\n                <strong>Single-cell analysis of OA in Bone Marrow shows increased cellular senescence</strong> \u2013 Musculoskeletal Research Symposium, Atlanta, GA, 2022\n            ",
+    "\n                <strong>Single-cell transcriptomics comparison of cell therapeutics in osteoarthritis</strong> \u2013 ISCT 2023, Paris, France\n                <br>\n                <a href=\"https://example.com/abstract_link2\" target=\"_blank\" style=\"color: #005f8c;\">Link to Abstract</a>\n            ",
+    "\n                <strong>PhD Thesis Defense:</strong> \"Bioinformatics and Therapeutic Genomics\" \u2013 Georgia Tech\n                <br>\n                <a href=\"https://bioinformatics.gatech.edu/paramita-chatterjee-bioinformatics-thesis-defense\" target=\"_blank\" style=\"color: #005f8c;\">Defense information</a>\n            "
+  ],
+  "blogPosts": [
+    {
+      "path": "blog-2024-12-31-scRNAseq-QC-WetLab.html",
+      "publicUrl": "/Bench2Bytes/blog-2024-12-31-scRNAseq-QC-WetLab.html",
+      "title": "The Interplay Between Wet Lab and Computational Practices in Single-Cell RNA-Seq",
+      "anchors": [],
+      "headings": [
+        {
+          "level": "h1",
+          "text": "The Interplay Between Wet Lab and Computational Practices in Single-Cell RNA-Seq: Shaping AI Innovations in Healthcare"
+        },
+        {
+          "level": "h2",
+          "text": "Pipeline Overview: Wet Lab and Computational Interplay"
+        },
+        {
+          "level": "h2",
+          "text": "Wet Lab Practices That Shape scRNA-Seq Data Quality"
+        },
+        {
+          "level": "h3",
+          "text": "1. Sample Collection and Preparation"
+        },
+        {
+          "level": "h3",
+          "text": "2. Cell Sorting and Viability"
+        },
+        {
+          "level": "h3",
+          "text": "3. Library Construction and Sequencing"
+        },
+        {
+          "level": "h2",
+          "text": "Computational Optimization: Bridging Bench and Analytics"
+        },
+        {
+          "level": "h3",
+          "text": "1. Normalization and Batch Effect Correction"
+        },
+        {
+          "level": "h3",
+          "text": "2. Dimensionality Reduction and Clustering"
+        },
+        {
+          "level": "h2",
+          "text": "Conclusion"
+        },
+        {
+          "level": "h2",
+          "text": "Citations"
+        }
+      ],
+      "references": [
+        {
+          "element": "link",
+          "attribute": "href",
+          "value": "css/style.css"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "index.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "about.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "publications.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "projects.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "blog.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "contact.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "https://doi.org/10.1080/21541264.2023.2200721"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "https://doi.org/10.1016/j.isci.2024.110827"
+        }
+      ],
+      "vendorArchive": false
+    },
+    {
+      "path": "blog-2025-01-09-ClinicalTrials.html",
+      "publicUrl": "/Bench2Bytes/blog-2025-01-09-ClinicalTrials.html",
+      "title": "Enhancing Clinical Trial Design with AI, Omics, and Multidisciplinary Insights",
+      "anchors": [],
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Enhancing Clinical Trial Design with AI, Omics, and Multidisciplinary Insights"
+        },
+        {
+          "level": "h2",
+          "text": "1. Preplanning Trials with Multidisciplinary Expertise"
+        },
+        {
+          "level": "h2",
+          "text": "2. Integrating Genomics, Multi-Omics Data, and Diagnostic Innovations"
+        },
+        {
+          "level": "h2",
+          "text": "3. Addressing Omics Disparities"
+        },
+        {
+          "level": "h2",
+          "text": "4. Distribution of Omics Type Combinations in Studies"
+        },
+        {
+          "level": "h2",
+          "text": "5. Addressing Controls and Bias"
+        },
+        {
+          "level": "h2",
+          "text": "6. Ethical Considerations and AI Challenges"
+        },
+        {
+          "level": "h2",
+          "text": "Conclusion"
+        },
+        {
+          "level": "h2",
+          "text": "Citations"
+        }
+      ],
+      "references": [
+        {
+          "element": "link",
+          "attribute": "href",
+          "value": "css/style.css"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "index.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "about.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "publications.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "projects.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "blog.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "contact.html"
+        },
+        {
+          "element": "img",
+          "attribute": "src",
+          "value": "images/disease_category_analysis.png"
+        },
+        {
+          "element": "img",
+          "attribute": "src",
+          "value": "images/omics_combinations_distribution_filtered.png"
+        }
+      ],
+      "vendorArchive": false
+    },
+    {
+      "path": "blog-2025-03-18-SingleCellClustering.html",
+      "publicUrl": "/Bench2Bytes/blog-2025-03-18-SingleCellClustering.html",
+      "title": "Decoding Single-Cell Clustering: Why More UMAP Clusters Don\u2019t Mean More Cell Types",
+      "anchors": [],
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Decoding Single-Cell Clustering: Why More UMAP Clusters Don\u2019t Mean More Cell Types"
+        },
+        {
+          "level": "h2",
+          "text": "Understanding Clustering in scRNA-seq"
+        },
+        {
+          "level": "h2",
+          "text": "Cell Types vs. Cell States: What\u2019s the Difference?"
+        },
+        {
+          "level": "h2",
+          "text": "Why Clustering Can Overestimate Cell Types"
+        },
+        {
+          "level": "h3",
+          "text": "1. UMAP Distorts High-Dimensional Space"
+        },
+        {
+          "level": "h3",
+          "text": "2. Over-Resolution in Clustering Algorithms"
+        },
+        {
+          "level": "h3",
+          "text": "3. Pseudotemporal Continuums"
+        },
+        {
+          "level": "h3",
+          "text": "4. Cell Cycle Effects"
+        },
+        {
+          "level": "h3",
+          "text": "5. The Effect of Integration Methods on UMAP Clusters"
+        },
+        {
+          "level": "h2",
+          "text": "How to Avoid Over-Interpretation"
+        },
+        {
+          "level": "h2",
+          "text": "Conclusion"
+        },
+        {
+          "level": "h2",
+          "text": "References"
+        }
+      ],
+      "references": [
+        {
+          "element": "link",
+          "attribute": "href",
+          "value": "css/style.css"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "index.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "about.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "publications.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "projects.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "blog.html"
+        },
+        {
+          "element": "a",
+          "attribute": "href",
+          "value": "contact.html"
+        },
+        {
+          "element": "img",
+          "attribute": "src",
+          "value": "images/umap_methods.png"
+        }
+      ],
+      "vendorArchive": false
+    }
+  ],
+  "projectPages": [
+    "projects/details/Project1.html",
+    "projects/details/Project2.html",
+    "projects/details/Project3.html",
+    "projects/details/Project4.html",
+    "projects/details/Project5.html"
+  ],
+  "externalLinks": [
+    "https://bioinformatics.gatech.edu/paramita-chatterjee-bioinformatics-thesis-defense",
+    "https://doi.org/10.1016/j.biomaterials.2023.122097",
+    "https://doi.org/10.1016/j.isci.2024.110827",
+    "https://doi.org/10.1038/s41467-021-21917-7",
+    "https://doi.org/10.1038/s41591-023-02632-w",
+    "https://doi.org/10.1073/pnas.1907982116",
+    "https://doi.org/10.1080/21541264.2023.2200721",
+    "https://doi.org/10.1093/gbe/evaa133",
+    "https://doi.org/10.1101/gr.248641.119",
+    "https://doi.org/10.1111/mec.15793",
+    "https://doi.org/10.1186/s13059-019-1747-7",
+    "https://doi.org/10.1186/s13287-021-02627-9",
+    "https://doi.org/10.1371/journal.pgen.1007311",
+    "https://doi.org/10.1371/journal.ppat.1008397",
+    "https://doi.org/10.3389/fsurg.2022.934773",
+    "https://example.com/abstract_link1",
+    "https://example.com/abstract_link2",
+    "https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap",
+    "https://github.com/pchatterjee7",
+    "https://github.com/pchatterjee7/COST-Covid19-Severity-Prediction-Tool",
+    "https://github.com/pchatterjee7/research-tools",
+    "https://pchatterjee7.github.io/Bench2Bytes/10x_usergroupmeeting.pdf",
+    "https://pchatterjee7.github.io/research-tools",
+    "https://scholar.google.com/citations?user=YlVon4IAAAAJ&hl=en",
+    "https://www.10xgenomics.com/videos/4ga78otsxk?autoplay=true",
+    "https://www.linkedin.com/in/paramitachatterjee2022/",
+    "mailto:paramita.chatterjee07@gmail.com"
+  ],
+  "downloads": [
+    "10x_usergroupmeeting.pdf",
+    "Enhancing Clinical Trial Design for AI modeling.docx",
+    "Enhancing Clinical Trial Design with AI.docx",
+    "images/all_methods_umap_group_by_sites.pdf",
+    "projects/Project1_abstract.pdf",
+    "projects/Project2_abstract.pdf",
+    "projects/Project3_abstract.pdf",
+    "projects/Project4_abstract.pdf",
+    "projects/Project5_abstract.pdf"
+  ]
+}
