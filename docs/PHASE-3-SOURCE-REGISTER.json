@@ -183,6 +183,11 @@
       "claim": "Linked defense event title and April24,2024 date",
       "source": "https://bioinformatics.gatech.edu/paramita-chatterjee-bioinformatics-thesis-defense",
       "qualification": "Distinct from user-provided dissertation title; internal discrepancy recorded."
+    },
+    {
+      "claim": "Director, Research Projects is within Emory University School of Medicine, not Winship Cancer Institute",
+      "source": "Explicit user correction,2026-10-05",
+      "qualification": "Supersedes current-role affiliation in original Phase3 brief/CVs; all four displayed references corrected."
     }
   ]
 }
