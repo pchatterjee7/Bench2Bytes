@@ -36,3 +36,7 @@ All16 published records and three preprints use full author order and title from
 - COST: https://github.com/pchatterjee7/COST-Covid19-Severity-Prediction-Tool
 - Defense: https://bioinformatics.gatech.edu/paramita-chatterjee-bioinformatics-thesis-defense
 - DOI metadata: each record’s source in `v2/src/data/bibliography.json` and `preprints.json`.
+
+## User correction: COST scope
+
+User confirmed COST was a class project. Removed it from flagship cases and the AI & Governance narrative; retained as explicitly labeled collaborative coursework. This supersedes its earlier portfolio weighting.

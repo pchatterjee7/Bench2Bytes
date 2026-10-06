@@ -84,56 +84,6 @@
     ]
   },
   {
-    "id": "clinical-ai",
-    "title": "Computation with a clear scientific purpose",
-    "domain": "AI-ENABLED RESEARCH · VALIDATION",
-    "summary": "A concrete machine-learning example, alongside scientific coordination of oncology data and analytical priorities.",
-    "fields": [
-      [
-        "Context",
-        "COST is a collaborative COVID-19 severity prediction research tool, documented in the master CV as a 2021 project."
-      ],
-      [
-        "The challenge",
-        "Connect biological input data with a computational severity-classification workflow and explicit evaluation."
-      ],
-      [
-        "Paramita’s role",
-        "Co-developer with Mariam Nawaz and Neharika Bhatia. The master CV documents preprocessing, classifier development and model evaluation."
-      ],
-      [
-        "Approach",
-        "A computational classification workflow with data preparation and evaluation. The public repository describes NK-cell single-cell transcriptome inputs. Current oncology work is a separate strand of scientific context, data strategy and analytical coordination."
-      ],
-      [
-        "Evidence / scale",
-        "The documented COST project provides a specific example of model-development work. Current oncology data leadership is a separate strand of experience."
-      ],
-      [
-        "Contribution",
-        "Practical computational experience combined with the ability to connect clinical objectives, data readiness and analytical interpretation."
-      ],
-      [
-        "Responsible research",
-        "Intended use, human review, validation, representativeness and limitations matter when moving from a research model toward use."
-      ]
-    ],
-    "links": [
-      [
-        "COST research repository",
-        "https://github.com/pchatterjee7/COST-Covid19-Severity-Prediction-Tool"
-      ],
-      [
-        "Responsible AI perspective",
-        "ai-governance.html"
-      ],
-      [
-        "Clinical trials, AI & omics writing",
-        "blog-2025-01-09-ClinicalTrials.html"
-      ]
-    ]
-  },
-  {
     "id": "cell-therapy",
     "title": "Cell therapy through a single-cell lens",
     "domain": "SINGLE-CELL · MULTI-OMICS · TRANSLATION",
