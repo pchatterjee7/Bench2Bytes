@@ -84,6 +84,56 @@
     ]
   },
   {
+    "id": "ai-enabled-research",
+    "title": "Scientific context for AI-enabled research",
+    "domain": "CLINICAL CONTEXT · DATA STRATEGY · COMPUTATION",
+    "summary": "Connecting biological and clinical objectives with data readiness and computational priorities.",
+    "fields": [
+      [
+        "Context",
+        "Multimodal oncology research at Emory University School of Medicine."
+      ],
+      [
+        "The challenge",
+        "Translate research objectives into usable data and analytical priorities without losing clinical or biological context."
+      ],
+      [
+        "Paramita’s role",
+        "Scientific and data coordination across investigators and computational teams; translation of biological and clinical objectives into AI/ML team priorities."
+      ],
+      [
+        "Approach",
+        "Fit-for-purpose assessment, data sourcing, quality controls, reproducible workflows and cross-functional communication."
+      ],
+      [
+        "Evidence / scale",
+        "This contribution sits within the oncology program portfolio and its molecular, clinical, registry, imaging and biomarker resources."
+      ],
+      [
+        "Contribution",
+        "Alignment of scientific questions, data strategy and analytical work through coordination between investigators and computational teams."
+      ],
+      [
+        "Responsible research",
+        "Intended use, provenance, permitted access, data quality, generalizability and human scientific review inform the research perspective."
+      ]
+    ],
+    "links": [
+      [
+        "Multimodal oncology case",
+        "projects.html#multimodal-oncology"
+      ],
+      [
+        "Responsible AI-enabled research",
+        "ai-governance.html"
+      ],
+      [
+        "Research operating model",
+        "research-models.html"
+      ]
+    ]
+  },
+  {
     "id": "cell-therapy",
     "title": "Cell therapy through a single-cell lens",
     "domain": "SINGLE-CELL · MULTI-OMICS · TRANSLATION",

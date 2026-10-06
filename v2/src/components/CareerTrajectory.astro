@@ -1,4 +1,6 @@
 ---
+import { url } from "../data/site";
+const { compact = false } = Astro.props;
 const roles = [
 ['June 2026–present','Director, Research Projects','Emory University School of Medicine','Scientific strategy, oncology research programs, data partnerships and evidence generation.'],
 ['February 2025–June 2026','Scientific Operations Lead, Oncology Data & Strategic Partnerships','Emory University','Clinical and multimodal data strategy, institutional coordination and operating models.'],
@@ -7,5 +9,7 @@ const roles = [
 ['October 2015–August 2017','Research Scientist I','Georgia Institute of Technology','Experimental biology, genomics, epigenomics and reproducible analytical methods.'],
 ['August 2011–August 2013','Research Technician','Georgia Institute of Technology','Experimental and molecular biology foundation.']];
 ---
-<p class="trajectory-intro">An expanding scope: experimental biology → genomics → single-cell and translational research → scientific and technical leadership → oncology evidence and data strategy. Each stage builds on the disciplines that came before it.</p>
+{compact ? <><ol class="scope-trajectory" aria-label="Expanding scientific scope"><li>Experimental biology</li><li>Genomics &amp; single-cell</li><li>Scientific &amp; technical leadership</li><li>Oncology evidence &amp; data strategy</li></ol><p class="fine">Each stage builds on the disciplines that came before it.</p><a class="text-link" href={url("about.html")}>Explore the career trajectory →</a></> : <><p class="trajectory-intro">An expanding scope: experimental biology → genomics → single-cell and translational research → scientific and technical leadership → oncology evidence and data strategy → AI-enabled research and responsible innovation. Each stage builds on the disciplines that came before it.</p>
 <ol class="career-timeline">{roles.map(([date,title,org,detail]) => <li><p class="eyebrow">{date}</p><details><summary><strong>{title}</strong><span>{org}</span></summary><p>{detail}</p></details></li>)}</ol>
+
+</>}

@@ -1,0 +1,30 @@
+{
+  "projects/images/Project2_Picture1.png": {
+    "path": "projects/images/Project2_Picture1-lossless.webp",
+    "width": 2420,
+    "height": 1173,
+    "originalBytes": 685642,
+    "optimizedBytes": 334768
+  },
+  "projects/images/Project3_Picture1.png": {
+    "path": "projects/images/Project3_Picture1-lossless.webp",
+    "width": 2410,
+    "height": 2365,
+    "originalBytes": 3099454,
+    "optimizedBytes": 1670980
+  },
+  "projects/images/Project4_Picture1.png": {
+    "path": "projects/images/Project4_Picture1-lossless.webp",
+    "width": 1911,
+    "height": 2296,
+    "originalBytes": 2289711,
+    "optimizedBytes": 1198636
+  },
+  "projects/images/Project5_Picture1.png": {
+    "path": "projects/images/Project5_Picture1-lossless.webp",
+    "width": 977,
+    "height": 1283,
+    "originalBytes": 1084325,
+    "optimizedBytes": 679292
+  }
+}

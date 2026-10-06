@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /Bench2Bytes/
+Sitemap: https://pchatterjee7.github.io/Bench2Bytes/sitemap.xml

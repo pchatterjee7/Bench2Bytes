@@ -1,0 +1,26 @@
+export const productionOrigin = 'https://pchatterjee7.github.io';
+export const descriptions: Record<string,string> = {
+ '': 'Paramita Chatterjee, PhD, MBA, PMP. Scientific Research & Innovation Leader connecting biology, genomics, oncology data and evidence to decisions.',
+ 'about.html': 'Paramita Chatterjee’s expanding scientific career, from experimental biology and genomics to oncology evidence, data strategy and research leadership.',
+ 'projects.html': 'Research cases spanning oncology real-world evidence, multimodal data, AI-enabled research, single-cell biology, cell therapy and public-health genomics.',
+ 'publications.html': 'Selected published research by Paramita Chatterjee, with preprints and conference abstracts listed separately across genomics and translational science.',
+ 'leadership.html': 'Scientific and program leadership through people, partnerships, research infrastructure, grant development and business-informed resource decisions.',
+ 'ai-governance.html': 'A scientist’s perspective on responsible AI-enabled research, data stewardship, validation and evolving governance interests.',
+ 'talks-writing.html': 'Bench2Bytes scientific writing, presentations and knowledge resources connecting experimental biology, clinical research, omics and responsible AI.',
+ 'research-models.html': 'Science, data, computation, evidence and decisions: a professional operating model illustrated with documented research examples.',
+ 'contact.html': 'Contact Paramita Chatterjee and explore her professional profiles, scientific publications and Bench2Bytes work.',
+ 'governance-observatory.html': 'A curated, source-tracked directory of policy and guidance shaping biomedical AI, clinical research and genomic data.',
+ 'blog-2026-10-05-AIGovernance.html': 'AI governance in biomedical research: evidence, oversight and responsibility in genetics, diagnostics, therapies and clinical trials.',
+ 'blog.html': 'Bench2Bytes articles on single-cell interpretation, wet-lab quality, clinical trials, omics and AI governance in biomedical research.',
+ 'presentations.html': 'Scientific conference presentations, webinars and thesis-defense information from Paramita Chatterjee’s research portfolio.',
+ 'clinical_trial_AI.html': 'Historical Bench2Bytes discussion of artificial intelligence in clinical-trial design and multidisciplinary research.',
+ 'blog-2024-12-31-scRNAseq-QC-WetLab.html': 'Historical scientific writing on how wet-lab practices and computational quality control interact in single-cell RNA sequencing.',
+ 'blog-2025-01-09-ClinicalTrials.html': 'Historical scientific writing on AI, omics and multidisciplinary insights in clinical-trial design.',
+ 'blog-2025-03-18-SingleCellClustering.html': 'Why additional UMAP clusters do not necessarily identify additional cell types: a scientific interpretation of single-cell analysis.',
+ 'projects/details/Project1.html': 'Original scientific figures and abstract on single-cell transcriptomics, immune alterations and crosstalk in knee osteoarthritis.',
+ 'projects/details/Project2.html': 'Original scientific figures and abstract comparing cell-based and corticosteroid injections in osteoarthritis.',
+ 'projects/details/Project3.html': 'Original scientific figures and abstract on single-cell epitope-transcriptomics and lung stromal and immune-cell responses.',
+ 'projects/details/Project4.html': 'Original scientific figures and abstract on tissue-of-origin differences and donor variation in mesenchymal stromal cells.',
+ 'projects/details/Project5.html': 'Original scientific figures and abstract on evolutionary selection affecting sympathetic nervous activity.',
+ '404.html': 'Find your way back to Bench2Bytes research, publications, scientific writing and professional portfolio.'
+};

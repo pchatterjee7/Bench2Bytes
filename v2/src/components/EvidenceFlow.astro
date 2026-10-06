@@ -1,0 +1,11 @@
+---
+interface Props { kind: string; }
+const { kind } = Astro.props;
+const flows: Record<string, { label: string; stages: string[]; note: string }> = {
+ rwe: { label: 'From longitudinal records to recurrence evidence', stages: ['EHR + claims + curated data', 'Endpoints + treatment classification', 'Survival + competing risks', 'Interpretation + quality review'], note: 'Analytical approach, not a chart of study results. Manuscript in preparation.' },
+ ai: { label: 'Scientific context across the analytical lifecycle', stages: ['Research question', 'Data readiness + permitted use', 'Computational priorities', 'Human scientific review'], note: 'Scientific/data coordination perspective; methods depend on the intended research use.' },
+ leadership: { label: 'Scientific priorities into program execution', stages: ['Scientific objectives', 'People + partnerships + resources', 'Milestones + dependencies', 'Review + program decisions'], note: 'An operating model grounded in the documented leadership examples below.' }
+};
+const flow = flows[kind];
+---
+{flow && <figure class="evidence-flow"><figcaption>{flow.label}</figcaption><ol>{flow.stages.map(s => <li>{s}</li>)}</ol><p class="fine">{flow.note}</p></figure>}
