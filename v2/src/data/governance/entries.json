@@ -328,5 +328,89 @@
     "primaryDocuments": [],
     "sourceOrganization": "HHS",
     "sourcePageReviewed": "2022-12-23"
+  },
+  {
+    "id": "gatech-ai-academic",
+    "title": "Interim - Artificial Intelligence (AI) in Academic & Research Contexts",
+    "jurisdiction": "United States",
+    "sectors": [
+      "University research"
+    ],
+    "summary": "Interim policy covers teaching, learning, scholarship and research by Georgia Tech faculty, researchers, staff, students, affiliates and units. Addresses protected data, approved scope, human oversight, output accuracy and context-dependent disclosure; funder and publisher policies also apply.",
+    "implication": "An institutional example of translating responsible-AI principles into academic and research expectations. The paired administrative/employment policy governs tool registration; personal student use with their own data has a stated exception.",
+    "source": "https://oit.gatech.edu/governance/ai",
+    "verification": "Editorial source review",
+    "history": [
+      {
+        "date": "2026-10-07",
+        "note": "Added after review of the official Policy Library text and OIT hub. Policy owner(s): Office of the Provost; Office of the Executive Vice President for Research. Shared Institute AI Governance Program; separate academic/research and administrative/employment contexts. Supporting guidance is distinct from policy; tool-approval standard is draft."
+      }
+    ],
+    "issuingOrganization": "Georgia Institute of Technology",
+    "documentType": "Institutional AI policy",
+    "currentStatus": "Interim policy",
+    "documentPublished": "2026-06",
+    "documentPublishedNote": "Effective date: June 2026 (month only); publication date not stated. Scheduled policy review: December 2026; this is not a completed source-page review.",
+    "sourcePageUpdated": null,
+    "editorialVerified": "2026-10-07",
+    "sourcePageType": "Institutional AI governance hub",
+    "primaryDocuments": [
+      {
+        "title": "Interim - Artificial Intelligence (AI) in Academic & Research Contexts (official policy; owner: Office of the Provost; Office of the Executive Vice President for Research)",
+        "url": "https://www.policylibrary.gatech.edu/artificial-intelligence-ai-academic-research-contexts"
+      },
+      {
+        "title": "Guidance on the Use of Artificial Intelligence (AI) in Academic and Research Contexts (supporting guidance; v260515-006)",
+        "url": "https://oit.gatech.edu/sites/default/files/2026-06/A%26R%20Supplemental%20v260515-006.pdf"
+      },
+      {
+        "title": "Georgia Tech AI Tool Approval Standard (Draft; version 260415-006)",
+        "url": "https://oit.gatech.edu/sites/default/files/2026-06/AI%20Tool%20Approval%20Standard%20v260415-006_1.pdf"
+      }
+    ],
+    "sourceOrganization": "Georgia Tech Office of Information Technology",
+    "sourcePageReviewed": null
+  },
+  {
+    "id": "gatech-ai-administrative",
+    "title": "Interim - Artificial Intelligence (AI) in Administrative & Employment Contexts",
+    "jurisdiction": "United States",
+    "sectors": [
+      "University research"
+    ],
+    "summary": "Interim policy governs AI procurement, implementation and administrative, operational or business use by Georgia Tech employees, contractors, affiliates and units. Requires authorized tools within approved scope, output verification, appropriate disclosure and protected-data safeguards; employment decisions require appropriate human review.",
+    "implication": "The paired policy distinguishes administrative/employment controls from academic/research use, including authorization, accountability and oversight of autonomous workflows. Supporting tool-approval material is currently marked draft.",
+    "source": "https://oit.gatech.edu/governance/ai",
+    "verification": "Editorial source review",
+    "history": [
+      {
+        "date": "2026-10-07",
+        "note": "Added after review of the official Policy Library text and OIT hub. Policy owner(s): Administration and Finance. Shared Institute AI Governance Program; separate academic/research and administrative/employment contexts. Supporting guidance is distinct from policy; tool-approval standard is draft."
+      }
+    ],
+    "issuingOrganization": "Georgia Institute of Technology",
+    "documentType": "Institutional AI policy",
+    "currentStatus": "Interim policy",
+    "documentPublished": "Not stated",
+    "documentPublishedNote": "Publication, effective and scheduled review dates are not stated on the policy page; annual or as-needed review is required in section 2.7.5.",
+    "sourcePageUpdated": null,
+    "editorialVerified": "2026-10-07",
+    "sourcePageType": "Institutional AI governance hub",
+    "primaryDocuments": [
+      {
+        "title": "Interim - Artificial Intelligence (AI) in Administrative & Employment Contexts (official policy; owner: Administration and Finance)",
+        "url": "https://www.policylibrary.gatech.edu/artificial-intelligence-ai-administrative-employment-contexts"
+      },
+      {
+        "title": "Guidance on the Use of AI in Administrative & Employment (A&E) Contexts (supporting guidance; v260515-009)",
+        "url": "https://oit.gatech.edu/sites/default/files/2026-06/A%26E%20Supplemental%20v260515-009.pdf"
+      },
+      {
+        "title": "Georgia Tech AI Tool Approval Standard (Draft; version 260415-006)",
+        "url": "https://oit.gatech.edu/sites/default/files/2026-06/AI%20Tool%20Approval%20Standard%20v260415-006_1.pdf"
+      }
+    ],
+    "sourceOrganization": "Georgia Tech Office of Information Technology",
+    "sourcePageReviewed": null
   }
 ]

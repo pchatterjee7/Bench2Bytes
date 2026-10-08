@@ -3,7 +3,7 @@ import path from 'node:path';
 import crypto from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 
-const authoritativeHosts = ['fda.gov', 'nih.gov', 'nist.gov', 'hhs.gov', 'ec.europa.eu', 'eur-lex.europa.eu', 'ema.europa.eu'];
+const authoritativeHosts = ['fda.gov', 'nih.gov', 'nist.gov', 'hhs.gov', 'ec.europa.eu', 'eur-lex.europa.eu', 'ema.europa.eu', 'oit.gatech.edu', 'policylibrary.gatech.edu'];
 export function authoritative(url) {
  try { const u = new URL(url); return u.protocol === 'https:' && authoritativeHosts.some(h => u.hostname === h || u.hostname.endsWith('.' + h)); } catch { return false; }
 }
@@ -16,8 +16,8 @@ export function linkedDocuments(raw, base) {
   try {
    const u = new URL(m[1].replaceAll('&amp;', '&'), base); u.hash = '';
    const title = normalizedHtml(m[2]);
-   // Narrow candidates: PDFs, agency download endpoints, or official legislative texts.
-   if (authoritative(u.href) && (/\.pdf(?:$|\?)/i.test(u.href) || /\/media\/\d+\/download/.test(u.pathname) || (u.hostname === 'eur-lex.europa.eu' && /\/legal-content\//.test(u.pathname)))) found.set(u.href, { url: u.href, title });
+   // Narrow candidates: PDFs, agency downloads, legislative texts and Georgia Tech AI policy pages.
+   if (authoritative(u.href) && (/\.pdf(?:$|\?)/i.test(u.href) || /\/media\/\d+\/download/.test(u.pathname) || (u.hostname === 'eur-lex.europa.eu' && /\/legal-content\//.test(u.pathname)) || ((u.hostname === 'policylibrary.gatech.edu' || u.hostname === 'www.policylibrary.gatech.edu') && /\/artificial-intelligence-ai-/.test(u.pathname)))) found.set(u.href, { url: u.href, title });
   } catch { /* malformed source link: ignore */ }
  }
  return [...found.values()];
