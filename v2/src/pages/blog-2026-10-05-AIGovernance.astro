@@ -9,3 +9,33 @@ import { url } from '../data/site';
  <article class="prose governance-article"><Content /></article>
 </Site>
 <style>.governance-article{max-width:78ch;margin-bottom:4rem}.companion{border-block:1px solid var(--line);padding:.6rem 0;margin-bottom:2rem}.governance-article :global(table){display:block;overflow-x:auto;width:100%;border-collapse:collapse}.governance-article :global(th),.governance-article :global(td){padding:.7rem;border-bottom:1px solid var(--line);text-align:left;min-width:150px;vertical-align:top}</style>
+
+<style>
+.governance-article :global(.lifecycle-figure){margin:2rem 0;padding:0;border:1px solid var(--line)}
+.governance-article :global(.lifecycle-figure svg){display:block;width:100%;height:auto;aspect-ratio:1400/1010}
+.governance-article :global(.lifecycle-figure svg.lifecycle-mobile){display:none}
+.governance-article :global(.lifecycle-figure figcaption){padding:1rem;font-size:.85rem;line-height:1.55;color:var(--muted)}
+.governance-article :global(table.lifecycle-table){display:table;table-layout:fixed;width:100%;overflow:visible;margin:1.5rem 0;font-size:.88rem;line-height:1.55}
+.governance-article :global(.lifecycle-table caption){font:1.35rem/1.4 var(--serif);text-align:left;padding-bottom:1rem;color:var(--ink)}
+.governance-article :global(.lifecycle-table th),.governance-article :global(.lifecycle-table td){min-width:0;padding:.6rem;overflow-wrap:anywhere}
+.governance-article :global(.lifecycle-table thead){color:var(--accent)}
+.governance-article :global(.lifecycle-table th[scope=row]){font-weight:600}
+@media screen and (max-width:600px){
+.governance-article :global(.lifecycle-figure svg.lifecycle-desktop){display:none}
+.governance-article :global(.lifecycle-figure svg.lifecycle-mobile){display:block;aspect-ratio:440/1510}
+.governance-article :global(table.lifecycle-table),.governance-article :global(.lifecycle-table tbody){display:block}
+.governance-article :global(.lifecycle-table thead){position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+.governance-article :global(.lifecycle-table tr){display:block;padding:1rem 0;border-top:2px solid var(--accent)}
+.governance-article :global(.lifecycle-table th[scope=row]){display:block;font:1.3rem/1.4 var(--serif);padding:.3rem 0 .8rem;border:0}
+.governance-article :global(.lifecycle-table td){display:block;padding:.6rem 0;border:0}
+.governance-article :global(.lifecycle-table td::before){content:attr(data-label);display:block;color:var(--accent);font-weight:700;margin-bottom:.25rem}
+}
+</style>
+
+<style>
+@media print {
+.governance-article :global(.lifecycle-figure){break-inside:avoid;page-break-inside:avoid}
+.governance-article :global(.lifecycle-figure svg.lifecycle-mobile){display:none}
+.governance-article :global(.lifecycle-figure svg.lifecycle-desktop){display:block;visibility:visible;opacity:1;width:100%;height:auto;aspect-ratio:1400/1010;print-color-adjust:exact;-webkit-print-color-adjust:exact}
+}
+</style>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="1510" viewBox="0 0 440 1510" role="img" aria-labelledby="title description">
+<title id="title">Governance across the AI lifecycle</title>
+<desc id="description">Bench2Bytes proposed operating model. Seven principles persist across Define, Data, Develop or Select, Validate, Approve or Use, Monitor or Change, and Retire. Checkpoints describe context, permission, evidence, scope, change and closeout; specific obligations depend on the use.</desc>
+<rect width="440" height="1510" fill="#faf8f1"/>
+<text x="24" y="44" fill="#126b68" font-family="Arial" font-size="13" font-weight="bold">BENCH2BYTES / PROPOSED OPERATING MODEL</text>
+<text x="24" y="90" fill="#153044" font-family="Georgia" font-size="30" font-weight="normal">Governance across</text>
+<text x="24" y="128" fill="#153044" font-family="Georgia" font-size="30" font-weight="normal">the AI lifecycle</text>
+<text x="24" y="167" fill="#91611b" font-family="Arial" font-size="14" font-weight="bold">PRINCIPLES ACROSS EVERY STAGE</text>
+<text x="24" y="197" fill="#153044" font-family="Arial" font-size="17" font-weight="normal">Accountability · Proportionality</text>
+<text x="24" y="224" fill="#153044" font-family="Arial" font-size="17" font-weight="normal">Data protection · Traceability</text>
+<text x="24" y="251" fill="#153044" font-family="Arial" font-size="17" font-weight="normal">Research integrity · Human oversight</text>
+<text x="24" y="278" fill="#153044" font-family="Arial" font-size="17" font-weight="normal">Escalation</text>
+<line x1="24" y1="318" x2="416" y2="318" stroke="#d5ddd7"/>
+<text x="24" y="358" fill="#91611b" font-family="Georgia" font-size="21" font-weight="normal">01</text>
+<text x="72" y="358" fill="#126b68" font-family="Arial" font-size="20" font-weight="bold">DEFINE</text>
+<text x="72" y="395" fill="#153044" font-family="Arial" font-size="18" font-weight="normal">Question, use and risk</text>
+<line x1="24" y1="473" x2="416" y2="473" stroke="#d5ddd7"/>
+<text x="24" y="513" fill="#91611b" font-family="Georgia" font-size="21" font-weight="normal">02</text>
+<text x="72" y="513" fill="#126b68" font-family="Arial" font-size="20" font-weight="bold">DATA</text>
+<text x="72" y="550" fill="#153044" font-family="Arial" font-size="18" font-weight="normal">Permission, quality and</text>
+<text x="72" y="575" fill="#153044" font-family="Arial" font-size="18" font-weight="normal">provenance</text>
+<line x1="24" y1="628" x2="416" y2="628" stroke="#d5ddd7"/>
+<text x="24" y="668" fill="#91611b" font-family="Georgia" font-size="21" font-weight="normal">03</text>
+<text x="72" y="668" fill="#126b68" font-family="Arial" font-size="20" font-weight="bold">DEVELOP / SELECT</text>
+<text x="72" y="705" fill="#153044" font-family="Arial" font-size="18" font-weight="normal">System, version and limitations</text>
+<line x1="24" y1="783" x2="416" y2="783" stroke="#d5ddd7"/>
+<text x="24" y="823" fill="#91611b" font-family="Georgia" font-size="21" font-weight="normal">04</text>
+<text x="72" y="823" fill="#126b68" font-family="Arial" font-size="20" font-weight="bold">VALIDATE</text>
+<text x="72" y="860" fill="#153044" font-family="Arial" font-size="18" font-weight="normal">Evidence and workflow</text>
+<line x1="24" y1="938" x2="416" y2="938" stroke="#d5ddd7"/>
+<text x="24" y="978" fill="#91611b" font-family="Georgia" font-size="21" font-weight="normal">05</text>
+<text x="72" y="978" fill="#126b68" font-family="Arial" font-size="20" font-weight="bold">APPROVE / USE</text>
+<text x="72" y="1015" fill="#153044" font-family="Arial" font-size="18" font-weight="normal">Scope, reviewers and conditions</text>
+<line x1="24" y1="1093" x2="416" y2="1093" stroke="#d5ddd7"/>
+<text x="24" y="1133" fill="#91611b" font-family="Georgia" font-size="21" font-weight="normal">06</text>
+<text x="72" y="1133" fill="#126b68" font-family="Arial" font-size="20" font-weight="bold">MONITOR / CHANGE</text>
+<text x="72" y="1170" fill="#153044" font-family="Arial" font-size="18" font-weight="normal">Performance, incidents and</text>
+<text x="72" y="1195" fill="#153044" font-family="Arial" font-size="18" font-weight="normal">updates</text>
+<line x1="24" y1="1248" x2="416" y2="1248" stroke="#d5ddd7"/>
+<text x="24" y="1288" fill="#91611b" font-family="Georgia" font-size="21" font-weight="normal">07</text>
+<text x="72" y="1288" fill="#126b68" font-family="Arial" font-size="20" font-weight="bold">RETIRE</text>
+<text x="72" y="1325" fill="#153044" font-family="Arial" font-size="18" font-weight="normal">Closeout, records and</text>
+<text x="72" y="1350" fill="#153044" font-family="Arial" font-size="18" font-weight="normal">continuity</text>
+<text x="24" y="1441" fill="#153044" font-family="Arial" font-size="16" font-weight="normal">Revisit earlier stages when the use changes.</text>
+<text x="24" y="1475" fill="#51636b" font-family="Arial" font-size="16" font-weight="normal">Specific obligations depend on context.</text>
+</svg>
